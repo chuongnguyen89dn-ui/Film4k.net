@@ -131,8 +131,19 @@ async def probe(args):
                 except Exception:
                     pass
             if '/movie/' in urlsplit(page.url).path:
-                stage = 'click_play'
-                await page.get_by_role('link', name=re.compile('Phát|Play')).first.click(timeout=15000)
+                stage = 'open_watch'
+                watch_url = args.url.replace('/movie/', '/watch/', 1)
+                # Normal-site fallback: the movie page does not always render a
+                # clickable Play link in headless Chromium. /watch/<slug> is the
+                # canonical player route observed in the interactive session.
+                await page.goto(watch_url, wait_until='domcontentloaded', timeout=45000)
+                for label in ('Enter Film4k', 'UNDERSTOOD'):
+                    control = page.get_by_text(label, exact=False).first
+                    try:
+                        await control.wait_for(state='visible', timeout=3000)
+                        await control.click(timeout=5000)
+                    except Exception:
+                        pass
             # Reading the master is sufficient even if this browser cannot decode HEVC.
             stage = 'wait_master'
             await asyncio.wait_for(ready.wait(), timeout=args.timeout)
