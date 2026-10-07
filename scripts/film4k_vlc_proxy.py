@@ -54,9 +54,14 @@ class H(BaseHTTPRequestHandler):
         if not m: self.send_error(404); return
         kind=m.group(1); key=m.group(2)
         url=TRACKS[kind]['init'] if key=='init' else TRACKS[kind]['segments'][int(m.group(3))]
-        req=urllib.request.Request(url,headers=SESSION[kind].get('headers',{}))
+        headers=dict(SESSION[kind].get('headers',{}))
+        # The CDN accepts ranged media requests reliably; mirror a player-style request.
+        headers.setdefault('Range','bytes=0-')
+        req=urllib.request.Request(url,headers=headers)
         try:
-            with urllib.request.urlopen(req,timeout=30) as r: data=r.read(); ct=r.headers.get('Content-Type','application/octet-stream')
+            with urllib.request.urlopen(req,timeout=30) as r:
+                data=r.read(); ct=r.headers.get('Content-Type','application/octet-stream')
+            print('[UPSTREAM_OK]',kind,key,'bytes=',len(data),'type=',ct)
             self.sendb(data,ct)
         except Exception as e:
             print('[UPSTREAM_ERROR]',kind,key,type(e).__name__); self.send_error(502)
@@ -81,7 +86,7 @@ def main():
     if not vlc:
         raise SystemExit('[VLC_NOT_FOUND] Install VLC or add vlc.exe to PATH')
     print(f'[VLC] launching {vlc}')
-    proc=subprocess.Popen([vlc,url])
+    proc=subprocess.Popen([vlc,'--network-caching=1500','--verbose=2',url])
     try:
         while proc.poll() is None:
             time.sleep(1)
