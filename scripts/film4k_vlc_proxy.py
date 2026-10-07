@@ -65,7 +65,23 @@ def main():
     global SESSION; SESSION=json.loads(a.session.read_text(encoding='utf-8'))
     for kind in ('video','audio'):
         init,segs=resources(SESSION[kind]); TRACKS[kind]={'init':init,'segments':segs,'playlist':rewrite_media(kind,SESSION[kind])}
-    print(f'[READY] http://127.0.0.1:{a.port}/master.m3u8')
-    print('[TEST] Open that URL in VLC; seek to middle and near end.')
-    ThreadingHTTPServer(('127.0.0.1',a.port),H).serve_forever()
+    url=f'http://127.0.0.1:{a.port}/master.m3u8'
+    server=ThreadingHTTPServer(('127.0.0.1',a.port),H)
+    threading.Thread(target=server.serve_forever,daemon=True).start()
+    print(f'[READY] {url}')
+    candidates=[
+        shutil.which('vlc'),
+        r'C:\\Program Files\\VideoLAN\\VLC\\vlc.exe',
+        r'C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe',
+    ]
+    vlc=next((x for x in candidates if x and Path(x).exists()),None)
+    if not vlc:
+        raise SystemExit('[VLC_NOT_FOUND] Install VLC or add vlc.exe to PATH')
+    print(f'[VLC] launching {vlc}')
+    proc=subprocess.Popen([vlc,url])
+    try:
+        while proc.poll() is None:
+            time.sleep(1)
+    finally:
+        server.shutdown()
 if __name__=='__main__': main()
