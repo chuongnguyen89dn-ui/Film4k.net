@@ -19,17 +19,20 @@ def attrs(line):
     return dict((k, v.strip('"')) for k, v in re.findall(r'([A-Z0-9-]+)=("[^"]*"|[^,]*)', line))
 
 def rewrite_media(name, item):
-    base=item['url']; out=[]
+    out = []
+    seg_index = 0
     for raw in item['body'].splitlines():
-        line=raw.strip()
+        line = raw.strip()
         if line.startswith('#EXT-X-MAP:'):
-            a=attrs(line); uri=a.get('URI')
-            if uri: line=line.replace(uri, f'/fetch/{name}/init')
+            a = attrs(line)
+            uri = a.get('URI')
+            if uri:
+                line = line.replace(uri, f'/fetch/{name}/init')
         elif line and not line.startswith('#'):
-            idx=len([x for x in out if x.startswith('/fetch/'+name+'/seg/')])
-            line=f'/fetch/{name}/seg/{idx}'
+            line = f'/fetch/{name}/seg/{seg_index}'
+            seg_index += 1
         out.append(line)
-    return '\n'.join(out)+'\n'
+    return '\n'.join(out) + '\n'
 
 def resources(item):
     base=item['url']; init=None; seg=[]
