@@ -306,7 +306,7 @@ def main():
     )
 
     print(f"[*] Film4K resolver test: {slug}")
-    stream_url, source_playlist, timings = extract_stream(
+    stream_url, source_playlist, timings = extract_hls_from_api(
         session, slug, page_url
     )
 
