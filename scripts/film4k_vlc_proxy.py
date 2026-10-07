@@ -80,14 +80,26 @@ class H(BaseHTTPRequestHandler):
         kind=m.group(1); key=m.group(2)
         url=TRACKS[kind]['init'] if key=='init' else TRACKS[kind]['segments'][int(m.group(3))]
         headers=dict(SESSION[kind].get('headers',{}))
-        # The CDN accepts ranged media requests reliably; mirror a player-style request.
-        headers.setdefault('Range','bytes=0-')
+        # Do NOT send Range for the fMP4 init. The earlier diagnostic showed
+        # Range requests can return an image/challenge object instead of init.
+        is_init = key == 'init'
+        if not is_init:
+            headers.setdefault('Range','bytes=0-')
         req=urllib.request.Request(url,headers=headers)
         try:
             with urllib.request.urlopen(req,timeout=30) as r:
-                data=r.read(); ct=r.headers.get('Content-Type','application/octet-stream')
-            print('[UPSTREAM_OK]',kind,key,'bytes=',len(data),'type=',ct)
-            self.sendb(data,ct)
+                data=r.read()
+                ct=r.headers.get('Content-Type','application/octet-stream')
+                status=getattr(r,'status',200)
+                cr=r.headers.get('Content-Range')
+            print('[UPSTREAM_OK]',kind,key,'http=',status,'bytes=',len(data),'type=',ct)
+            if ct.startswith('image/') or data[:8] == b'\x89PNG\r\n\x1a\n':
+                print('[UPSTREAM_BAD_MEDIA]',kind,key,'returned image instead of media')
+            self.send_response(status if status in (200,206) else 200)
+            self.send_header('Content-Type',ct)
+            self.send_header('Content-Length',str(len(data)))
+            if cr: self.send_header('Content-Range',cr)
+            self.end_headers(); self.wfile.write(data)
         except Exception as e:
             print('[UPSTREAM_ERROR]',kind,key,type(e).__name__); self.send_error(502)
     def sendb(self,b,ct):
