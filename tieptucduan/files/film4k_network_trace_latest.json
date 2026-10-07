@@ -1,0 +1,194 @@
+[
+  {
+    "type": "document",
+    "method": "GET",
+    "url": "https://film4k.net/movie/hancock"
+  },
+  {
+    "type": "xhr",
+    "method": "POST",
+    "url": "https://film4k.net/cdn-cgi/rum?"
+  },
+  {
+    "type": "xhr",
+    "method": "POST",
+    "url": "https://film4k.net/cdn-cgi/rum?"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4k.net/api/title/hancock"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4k.net/api/auth/me"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4k.net/api/comments/hancock"
+  },
+  {
+    "type": "document",
+    "method": "GET",
+    "url": "https://film4k.net/watch/hancock"
+  },
+  {
+    "type": "xhr",
+    "method": "POST",
+    "url": "https://film4k.net/cdn-cgi/rum?"
+  },
+  {
+    "type": "xhr",
+    "method": "POST",
+    "url": "https://film4k.net/cdn-cgi/rum?"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4k.net/api/auth/me"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4k.net/api/watch/hancock"
+  },
+  {
+    "type": "fetch",
+    "method": "POST",
+    "url": "https://film4k.net/api/play-ticket",
+    "post_data": null
+  },
+  {
+    "type": "fetch",
+    "method": "POST",
+    "url": "https://film4k.net/api/view",
+    "post_data": "{\"slug\":\"hancock\"}"
+  },
+  {
+    "type": "xhr",
+    "method": "GET",
+    "url": "https://film4k.net/watch/hancock"
+  },
+  {
+    "type": "xhr",
+    "method": "GET",
+    "url": "https://film4k.net/api/hls/bSDSbv5kpYX6SosFp0wbB5FthrlKuX7ze1MYdsiJ8kUxYfSBbjLhxe7lsk3uu_zDR2QRlS0cFn4G6urB5JDjh8N5XXTtxbKa3tM/master.m3u8"
+  },
+  {
+    "type": "xhr",
+    "method": "GET",
+    "url": "https://film4k.net/api/hls/bSDSbv5kpYX6SosFp0wbB5FthrlKuX7ze1MYdsiJ8kUxYfSBbjLhxe7lsk3uu_zDR2QRlS0cFn4G6urB5JDjh8N5XXTtxbKa3tM/a1.m3u8"
+  },
+  {
+    "type": "xhr",
+    "method": "GET",
+    "url": "https://film4k.net/api/hls/bSDSbv5kpYX6SosFp0wbB5FthrlKuX7ze1MYdsiJ8kUxYfSBbjLhxe7lsk3uu_zDR2QRlS0cFn4G6urB5JDjh8N5XXTtxbKa3tM/v.m3u8"
+  },
+  {
+    "type": "xhr",
+    "method": "GET",
+    "url": "https://film4k.net/api/hls/bSDSbv5kpYX6SosFp0wbB5FthrlKuX7ze1MYdsiJ8kUxYfSBbjLhxe7lsk3uu_zDR2QRlS0cFn4G6urB5JDjh8N5XXTtxbKa3tM/s0.m3u8"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4k.net/api/subs/hancock_s0_7b61fda05639.vtt"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/KGZ-dYObXNuc9L-24egBzFQ8aTrMc_LFK48x8NNY3mfA4BPqqzSzQ-kHKxKedvOS5HRzs7ZiamMbrWakPooABLY-W626jrYLKgZQA7tdMkJ7M3dYji5r_a7bOlkhY_uQjgtJZO6wskwnE2xZBZPYSw4rabQraLMeOPwp5qZvHhq6dBkiZnIaesnjgaeyzHo0-8GDDZ9RT-qSUon6EJwLYykhnUaon2-OGnSHdEaYLEnGE5I3Da5XLsAqtv52fKdzAtR1usq1_jVdbP0OZ2HuwtN1MWr64tQH-x5U8QVxynlaQ9ubwALrkp7qWiQv-WHOho0enY-tke72wwQrCxITAQ"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/7C39f0jF5BthPZxGzGkTbU10vy22PMve4VfPiqyLH0mSEnnVQ0fqEBEkP5l6vdQ-CnZkwmEqfdxjLa22gewv6vniB-aaTQUoVWe7k6pw7RgTrRkiXTsb7p7mMkqbI6oIwE2Eya6fA33AfM05RANhS-cEVxakCrry3SwlhR8BKuQ1jKig6Xg0cnInFbeqrWg6q3E3XibCKhz__yY9wW6ouwWz1V38fMO3EIoXBC42ZCcz6OvmS3mDgiErQ7AGIAMhxjO-ZqijNX4yCcjqJgDlMN3WyOidsT1grOTpluHWSPeW0POksChoAtApWcMvG1GJNtaZmsYxqK9xYm7_MIS_hg"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/WEgvnQ4nWuvqed_biV7jgH1IsjwipL78UMB1TMqCjtgZY1Gdj_hIytfetVDOju7Co6A3V4qpPnT3mFXikLTujy9XkbedmLWVo2MXmwPV9HI7_ubjeMYe6FDR6BvMFj1o0DQrudTc4YMa4ElD_cQLef7Xzll0eL2W9ezBXDQ5MZDXwnTdd9cyO88mXpEHzyl46F3f0Nl_D8IDkzQ6BVoq9mK2qx_jD0IVIMe2aYrLvbo-UR4qhvVaSNpz0tMiaB8L9napHCIO3MPaC5gkT5gppftOaxe-AHJzUZSp2A7x-WUr3XtUiRvjyHxlYvxCTrFirkPoplpH9FXCnlszntggFA"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/d5kcaIrd76LSs0WyX5fFfnnrImkFQBksEhrYh2NA6SssUql8bSKwEm1N4ImpyFxyC0izhRbzP9D3yp7zHbd5KZmuE9RVsaTVckddQ2fcQQymw-R_zJr2J9eWSXZga4Wt2KgqUb7r6WDfX1lbUujxrGsm-2e2yI5UvUefP2RgDeboLEUp2-WS1Tc2Xz0WlBaDWME6zkzpMx0NgeWyoL8asdvG9IkWfwFvKk1oqbq73485VrvpLi8eZbFswmTlTuRNVo96RpVI5gATbd-Loq8Knk_-0bHt5OPlUIMb5CyjDqf9_kprdSUmaDAIf5AfndsBDj4KdAca-XEBT--ZXntT6WUw"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/qd13tZYY4X27BNv-_mylDBTtR5pV7dNOMz6OhQAOwc4YzJGTghWv-22T539Yz2wnm1Qf4EwvKz61jtjzkspgce6e7rw9lVBu2jcUjSHzAByN6UFNE0Dx0pkVsNk2yNkQ-RCHiZDWfUiJX0X0M5MfqR9jzVQSr01IAedj5O68TBKE4kgR06LeeN_4QFiaKBJvkMaWoJUmp9ShE1OC_jAGSI_y9c4jOXUTCOu5woagqNR9pMi_rviMBYRx90kZolhziYYEgSibCoIBErxxusaMn2tyy3jcFuuS7Ubb2gFn_H_QvcwTe6qAs_XyHxfdmWhZRd7fsG0SX7yi1r22o4Ik3Q"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/hQaD_Oaq4Q0cNK181W-S9SnWVeYAtgaJMbraZ8smblEj-a8MPhnbfL9MoTK0ywBpZ1HiLXZSfjHmUqZbeQ4y5XK94r6R5_NvTzjdSyJ6D1c9eAil-4kPLiFciKOxLxz4ntpKzF6YJh4JwUpStHDYRsYJOGlCH4b431EDFDTPltJtMYvDOP7VlWUMsyI28HLowAx3cGXteruPkQf-t2lP0_cUuLLXIbSVYye3Jg8mGogSO3znpENAuuroshgZsmjyvVRDdzunU03eFYhIVmvDJnrBVKuohHm83sifgGLSACjAWtQxJdhgIe3lNgYRBfKnXE6wAS9gWOViscZV3HcQPBNg"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/wmIeuYuynQgRfriFxOKtxsO6jugk2IdmQAH0QB-t4cHrXUsMO08_v-1TzbQv7yhrlDKokh9W3NEZz16E4u0rNOcSk4VB1J7cNbP5_9V8iUmm-qfgo7wcRXxQ_Uk0dqoZ27IPCkWGlKu9v5G5-VM8VEYmf-hbM3cWOZi4dLV7Co4gz7r0LtbJL8V8c9h-mjbSho3y8t0kzySpD14BBTYFmgMRcVDpyo_45JyMf8dr7u7HgbcUjd890D23xx7Gp3ucUTdhMOA-DXO8NYS6GpiBN2Im9eC0cvvM4P3IHwjeNrYLo8IvyGgya0rKibDIJS5PuLQLplgXIg2r36cA8HxgDg"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/hZJbL-x0KsHpQ9fJIT_kkv1a35UQFvVSIeAq84nQu8YJ_uxXEyAVOG7pkk_3ocVjiXO3I_SqoEK6nL_xKZzoKCQBr-B9unsfX3KaOK4n2W3-yLSwcABp4-9t9w4gF4PneIVkPAnLxBqmTQ0Bp23zI2-uW-UCPkprMo_AjI63Gs-DzysrHV6ZobVF38QjtT8jjogcDuAm44eXSA_r9ISiz7paZRrRn0Yd3dTZJHG8c5yTZKVtXtjFXbt7MT2PRZhI2PBfokw9deFU4E7CtS5-KI9ySZqWp3uZsa7eOnJH12OI4RNb1WsancXonQ2Jyc08yb5s14W7nvEeKMPVQPiQS7O6LXOsHx6RX_c"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/0SYqHYcvtQHZqdWT4ZjRZ8hE7zVin8LflSQkpAbjTC1WmzO25LKP4LSzPjcXGD4PP5OnjpCqyG4qAysXGBxvSh6XUsRaTmI6P9xNG5rLHYdeuto81gCL7mXWvwXeSJJG2T_6DLatTCezRlw3l5NPDXEMKaDkeOlUD7-4eZngN2cpDIeSfi-cEnH1Zt8Ekp3rTiNBJQKCCWxCaxxS64zBdTWLsd_ou5WqI4aIPOEMAbMVuR8wFNxjpJVGqDKbPh9dIyGewUJ_h-Fc6An6teDd1CWnssHVXyglpetC7FbXyEimSpZhJ0gKcaOa8MhGFJABW1kdwDfyHcmTJoWPZwMU3X_ODgfgxQ"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/VhJVLQUtE2zVgimt2ELNvevsbankZMHrASv6mDWxHvAW2vuTvp5gBAOopb13PlGZgeT_9xAU2jSFrGLUAiVZ2WwXGjOhQ_DLiqpJXrkwvjXD6QkMAVlC7E2OF5IFMJISslUnOlXGm3w1wT3GypUxqL2i6vpjBUeFrFzrX6xRqB8SOw6pW7uXljqLpi9bWNVotEDYtlRrziWWwriOSP5sXbb-fKP5WDAV2QszB3uRYDeSyDKtKWsv29LcmqvAq3nBWCgGaayBCYA2ziwjFI7vbmKYn78PwBi5I3GOAjdVlXutM4hkskCBThVUK15BYM-Lfh6iHtH57RbQit9rAF2TuC7a"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/6t5c2JOeAQ4JLVkor5ZXMCGZ779ilkq8Wi6PCuYENPAYB6qYq8NhmCXh1ZuNM8aG_u-MqQofo_GPWos2ADJUUtjbbllMInC1bV7VVQJ_YpotrhliVQT0_N5T2C93JEp_DQ9Owzet8A8mMJ5fwOjs50vChOoFPArqzIwACR-rW0iTby6tptSUaoGDJLnkfwTzpLe_SCdyZPB83tW1zkmGatL-Tsibl33RhtFDwDNniN5UBKot4sK5g6hQTa8ACnX8iak-qBtZnpzKjKC9V-AhUVSBJ0k1cRdhzNDXypK9cK3DQenzIpN2FMecAZ_CJMeK1A3ZO76bupdXfHER9aVDfmbJ"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/-j30fzgsRpmApc2ZS7Wsq9kSyqn_0pvqMp4NHZX97EgnLxOf6YH9_4hL_oZ49NtxHNidzzFcWcUFa4B1AWqYFubYH5Vnb0DpGCwFUlBsVR8YF8vHW_Ky2jCX1sDTRn0tlgfxTeonhkQ_1i8I4TtErRpojzoRlhjZW0Z4_5gDOQcWeqN0M9xXfg3O8daQjin-r0J9XMcMm6zyPTNBsEs6pxWKNT-j5nEp7MYFFDceNMgjGqkSZi8M0Myfb0j4cSxpAUIN6PtNWVmR-DBG1YPjPX1fiJ-kS82YxJwjWehih4gLyuJBXMMW5CosYP4-XpDKUJlD9kL2B9rWVZV8-B3mhg"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/oLs_BB0WS-4Hflu0Rk4WcgqrJTzP9bUl1l3PMRaxeqhsGXEepcl6Ib9OuImopepA6mcdWTX2DbS_XmTJL74fq2pMdcYz_usJs9d0zjiJqj1Zp2FVE2afVFQjdlJ_yvib8HYEP_c7hck72Y5CTJ-yILvaJyv3xU8CI6zOWbBkAkRv6TfGM5RMD_3eEIaBYgJQjSW9B2BUsGh6V6ExjYL0Rp0IjZYUMnooDOtmfE-pbTkdWDL4rx1EEeWMHbiFGdZDfoIuYkRQ23iDW9fqPZ7Mhm1jGRPbhXEdIKdFxJVi0iTjhD0y-_aTJsm4B3e7I7XsYzw5PxECTTLSzHf4x4H6limWcF4"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/D5eGWgXJEq5HOdtFDAm3NPhJggFpPWDWqMDvjboPbKh-ZRHhSKPOLKjB8Mitjw2ITUodQfs0O-xYV3lV3DohrisDuLaNP1l_jKWK_wuQYtC_LtSOasmhpGL8V6GZkouNgBGkYN32sMpPyalF-R2VD-GXqtHEnhsxVMklxnVevTAdS4M4UrQjONtlxEyERev5azGCQCLND-fJ7NwokwUy0L1gqB6jdb6NSOKm8KTdlRvIRX-C9dAPpG9vuhZEGVgMV9c3Dtrxay57aWY340Ac2nG1qTZ_awFWnyMUXVedKld5GMxAMlW8DwAcBDJXhocn0ri0rGrFwhIu7-Og18K407KO"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/6Ub4CfSIKM4TZ5jslmGhrytXk-SZsgb1nkleyUBlLkUW_Nmw3t-NnNjgwnHPVRN1hxI4nfmmXfcpJoh2cGtN-Rqxi1jfJgL8aqJBTOKzaSP8MPDmY8qQu8SAslyXdCdsYrqsbBlM7VIGP3T2FggRlLy5mVlffdqhtQ8SRHjsaQYr9DTfmNxpQwvBDNqwEAMJj1G-Qz3UH58iurz-1zBMag3E_n1cDn7SPakrierW-X9EvCxbiGE5Yq8gSB6-bh0qb4NlL38vHXat06zvu9M5yUEnkTHXvl-yCpZ26Bu8qgv00eezrm12Lr86rMaak0JdfT1lNrbBwCUGC3OBys0f1g"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/-9ugg6mqyoM3W1bZq2o147kk2fpiwerbFZWNtjIjIEFzHgIhCunDuAWcZEhQB6IyyrzRy80kJ1piO61NCO3AWCV5EQdWQQyqguNRJMcTbvndFVscTs832nrwf_pqRRmutTlNnwacr8nPRU92vrj45eREVXoyHHKFPeMpng4JGqdCZpviAv847SkmYWEYszxJ-vjxECAKGwZr2IdbjV2yhujbMrur2dNYay4vZeOmIto7z8km2J966-iE3Ez5VrYfC0q-zKfle47NdT4PQdx_hisysW_6bhJu2K4R_PuZw9H1jZ3eLMotRFBDCpxwDLxdNsv7xHBZLweacHXQ_njUW_6V2QQ"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/BQdXLLeeCAj1BEhr9pWHpf6kw_hjxaEBPk6582eTYuNHv28nUfUsoOmZo9UJ38z_C6KO_RKUfDQYkvFpsNuYW0OxX7TMYoaGYv8r0zFlVq8FUK7Hv3X-Tnwuz03n1B5IVhq3gBC7enh2q42SME2S56BGfMYfLiwOOcCSaTi1GM8DaSz6gpOx99XIPH6j1o6YfdW4Y0kdGigWZt46y4-sJuwoNi8dRihES385JWu2AJX4dn9xx4imv-2P6moyqufeQZhrPH4VIz04kxuqdp7ZxnoLKzIzGHGpttjMDkMJbJ2ujZot-kjNqhe8RkKR9ukf2DJ5hSQF0X4eKWtKWtaNQf7S"
+  },
+  {
+    "type": "fetch",
+    "method": "GET",
+    "url": "https://film4knet.ngaodacopho.workers.dev/tt/6SHxEnpkLb4znzTF0x-B0029NOzavD2kerCsldHH2D7z_WKw9-RXR3z2_BzG-tqWjUdW8_1j8QqLNEoo-wIyaktXJalgyq6o3YJKUKwMDB7Mmfn4k9LdvaOLzi5e7rCBN7A6zdJhJWDjWHp1cJ6GpwujhLOmb_pR1fNpa_AMA_Zi1xs1JDUmwfE_viE3tHrQw5tgTMYynH-OirJiVr_SdeOKtL_yM3LW-oRv8F2uPnAmlRXJ1HZgq5G0iXpmlyyVQ8OxjQSMwY20tObmiB5GAwMQ0ST0N4SuggnMLezoWujKro-53F2XMgWonx6tXV3JBJB7uSEF75MUcdVGKTU3blYA4jw"
+  },
+  {
+    "type": "fetch",
+    "method": "POST",
+    "url": "https://film4k.net/api/watch"
+  }
+]
