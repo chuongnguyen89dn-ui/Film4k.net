@@ -50,7 +50,14 @@ def get_fresh_stream(slug):
     session = requests.Session()
     page_url = f"{BASE_URL}/watch/{slug}"
     session.headers.update(
-        {"User-Agent": USER_AGENT, "Referer": page_url}
+        {
+            "User-Agent": USER_AGENT,
+            "Referer": page_url,
+            "Accept": "application/json, text/plain, */*",
+            "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Cache-Control": "no-cache",
+            "Pragma": "no-cache",
+        }
     )
 
     try:
@@ -60,9 +67,23 @@ def get_fresh_stream(slug):
         api_watch = session.get(
             f"{BASE_URL}/api/watch/{slug}",
             timeout=8,
-            headers={"User-Agent": USER_AGENT, "Referer": page_url},
+            headers={
+                "User-Agent": USER_AGENT,
+                "Referer": page_url,
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+                "Cache-Control": "no-cache",
+                "Pragma": "no-cache",
+            },
         )
         watch_ms = int((time.monotonic() - t0) * 1000)
+        if api_watch.status_code == 403:
+            print(
+                f"[film4k] api/watch 403 from Render; "
+                f"server={api_watch.headers.get('Server')} "
+                f"cf_ray={api_watch.headers.get('CF-RAY')} "
+                f"body={api_watch.text[:300]!r}"
+            )
         api_watch.raise_for_status()
 
         data = api_watch.json()
