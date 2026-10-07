@@ -53,10 +53,40 @@ def extract_stream(session, slug, page_url):
     timings = {}
     started = time.monotonic()
 
+    watch_attempts = 3
+    page = None
+    watch_errors = []
     t = time.monotonic()
-    page = session.get(page_url, timeout=10)
-    page.raise_for_status()
+
+    for attempt in range(1, watch_attempts + 1):
+        try:
+            page = session.get(
+                page_url,
+                timeout=10,
+                headers={
+                    "User-Agent": USER_AGENT,
+                    "Referer": page_url,
+                    "Cache-Control": "no-cache",
+                },
+            )
+            print(f"    [/watch attempt {attempt}] HTTP {page.status_code}")
+            if page.ok:
+                break
+            watch_errors.append(f"attempt {attempt}: HTTP {page.status_code}")
+        except requests.RequestException as exc:
+            watch_errors.append(f"attempt {attempt}: {exc}")
+            print(f"    [/watch attempt {attempt}] ERROR {exc}")
+
+        if attempt < watch_attempts:
+            time.sleep(1.5 * attempt)
+
     timings["watch_ms"] = ms(t)
+
+    if page is None or not page.ok:
+        print("[FAIL] /watch unavailable after retries")
+        for error in watch_errors:
+            print(f"    {error}")
+        return None, None, timings
 
     if not solve_gate(session, page_url, page.text):
         return None, None, timings
