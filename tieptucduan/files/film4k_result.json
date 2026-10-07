@@ -1,0 +1,1846 @@
+{
+  "page": "https://film4k.net/movie/spider-man-brand-new-day",
+  "title": "Người Nhện: Khởi Đầu Mới (2026) — Film4k",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+  "best": {
+    "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/master.m3u8",
+    "kind": "HLS",
+    "seen_from": [
+      "body:https://film4k.net/api/title/spider-man-brand-new-day"
+    ],
+    "content_type": "application/vnd.apple.mpegurl",
+    "status": 200,
+    "playable_http": true,
+    "is_manifest": true,
+    "variants": [
+      {
+        "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/v.m3u8",
+        "width": 3840,
+        "height": 2160,
+        "bandwidth": 8367010
+      },
+      {
+        "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/v.m3u8",
+        "width": 3840,
+        "height": 2160,
+        "bandwidth": 8367010
+      }
+    ],
+    "audio": [
+      {
+        "name": "English (6ch EAC3)",
+        "language": "eng",
+        "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/a0.m3u8"
+      },
+      {
+        "name": "English (Stereo)",
+        "language": "eng",
+        "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/a1.m3u8"
+      },
+      {
+        "name": "English",
+        "language": "eng",
+        "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/a2.m3u8"
+      }
+    ],
+    "subtitles": [
+      {
+        "name": "Vietnamese",
+        "language": "vie",
+        "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/s0.m3u8"
+      },
+      {
+        "name": "English",
+        "language": "eng",
+        "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/s1.m3u8"
+      }
+    ],
+    "best_variant_url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/v.m3u8",
+    "best_variant_status": 200,
+    "segment_test_url": "https://film4knet.ngaodacopho.workers.dev/tt/5LQftyz7UBuVvRKZ3Cla4tpGT9fc0ndX68ECuIroMcBhdIcLEKbJ0jN47Ko960aA-UNmrxtIDqophOzIfadwaPutz_R5a9oAHUeyeQPgWdhR6B3Z_2eUT5ZDVA5D1HTKJs1ElYASnYbWTLCr7FDa7evdRhOWQN83g3bNPKSLgzQM68XMySGo7GEHlyF0_j8V7tcEbxiMVt3sYWan7ITt6PMcT1lnQM42alxRTMXKGVeNcc-hmTmmRB67hDRCdLaw1XhRsOHIqsEnC24k3NkJAeF-PkgQS8V9hpXO4YefvWJvsuAgRnkR0R7YKpVYQSxVov2JX59D8y2rmwYuIjbX_Q",
+    "segment_status": 206,
+    "segment_ok": true
+  },
+  "sources": [
+    {
+      "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/master.m3u8",
+      "kind": "HLS",
+      "seen_from": [
+        "body:https://film4k.net/api/title/spider-man-brand-new-day"
+      ],
+      "content_type": "application/vnd.apple.mpegurl",
+      "status": 200,
+      "playable_http": true,
+      "is_manifest": true,
+      "variants": [
+        {
+          "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/v.m3u8",
+          "width": 3840,
+          "height": 2160,
+          "bandwidth": 8367010
+        },
+        {
+          "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/v.m3u8",
+          "width": 3840,
+          "height": 2160,
+          "bandwidth": 8367010
+        }
+      ],
+      "audio": [
+        {
+          "name": "English (6ch EAC3)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/a0.m3u8"
+        },
+        {
+          "name": "English (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/a1.m3u8"
+        },
+        {
+          "name": "English",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/a2.m3u8"
+        }
+      ],
+      "subtitles": [
+        {
+          "name": "Vietnamese",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/s0.m3u8"
+        },
+        {
+          "name": "English",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/s1.m3u8"
+        }
+      ],
+      "best_variant_url": "https://film4k.net/api/hls/LhMgaC8S9LtVaiaxd6TkCWfzGmYeJtcpq1CvJzGabdB5yd3mKvbKwLYaValhCwEIIL_o7razc8wRpokgNyQ6PUYWrDqUgZPC62-r/v.m3u8",
+      "best_variant_status": 200,
+      "segment_test_url": "https://film4knet.ngaodacopho.workers.dev/tt/5LQftyz7UBuVvRKZ3Cla4tpGT9fc0ndX68ECuIroMcBhdIcLEKbJ0jN47Ko960aA-UNmrxtIDqophOzIfadwaPutz_R5a9oAHUeyeQPgWdhR6B3Z_2eUT5ZDVA5D1HTKJs1ElYASnYbWTLCr7FDa7evdRhOWQN83g3bNPKSLgzQM68XMySGo7GEHlyF0_j8V7tcEbxiMVt3sYWan7ITt6PMcT1lnQM42alxRTMXKGVeNcc-hmTmmRB67hDRCdLaw1XhRsOHIqsEnC24k3NkJAeF-PkgQS8V9hpXO4YefvWJvsuAgRnkR0R7YKpVYQSxVov2JX59D8y2rmwYuIjbX_Q",
+      "segment_status": 206,
+      "segment_ok": true
+    },
+    {
+      "url": "https://film4k.net/api/hls/pYmduHHit-BXHk_WdmkfJ6mYJfy7l9gX8yLnbHBCDj6jlPFF7xNRiFptrn86BgktZwIENGN1bW1qffQ2bb-Zqs180BpmQ3mQ_BRKheIcL8pA/master.m3u8",
+      "kind": "HLS",
+      "seen_from": [
+        "body:https://film4k.net/api/title/spider-man-brand-new-day"
+      ],
+      "content_type": "application/vnd.apple.mpegurl",
+      "status": 200,
+      "playable_http": true,
+      "is_manifest": true,
+      "variants": [
+        {
+          "url": "https://film4k.net/api/hls/pYmduHHit-BXHk_WdmkfJ6mYJfy7l9gX8yLnbHBCDj6jlPFF7xNRiFptrn86BgktZwIENGN1bW1qffQ2bb-Zqs180BpmQ3mQ_BRKheIcL8pA/v.m3u8",
+          "width": 3840,
+          "height": 2160,
+          "bandwidth": 8319887
+        },
+        {
+          "url": "https://film4k.net/api/hls/pYmduHHit-BXHk_WdmkfJ6mYJfy7l9gX8yLnbHBCDj6jlPFF7xNRiFptrn86BgktZwIENGN1bW1qffQ2bb-Zqs180BpmQ3mQ_BRKheIcL8pA/v.m3u8",
+          "width": 3840,
+          "height": 2160,
+          "bandwidth": 8319887
+        }
+      ],
+      "audio": [
+        {
+          "name": "English (6ch EAC3)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/pYmduHHit-BXHk_WdmkfJ6mYJfy7l9gX8yLnbHBCDj6jlPFF7xNRiFptrn86BgktZwIENGN1bW1qffQ2bb-Zqs180BpmQ3mQ_BRKheIcL8pA/a0.m3u8"
+        },
+        {
+          "name": "English (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/pYmduHHit-BXHk_WdmkfJ6mYJfy7l9gX8yLnbHBCDj6jlPFF7xNRiFptrn86BgktZwIENGN1bW1qffQ2bb-Zqs180BpmQ3mQ_BRKheIcL8pA/a1.m3u8"
+        },
+        {
+          "name": "English",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/pYmduHHit-BXHk_WdmkfJ6mYJfy7l9gX8yLnbHBCDj6jlPFF7xNRiFptrn86BgktZwIENGN1bW1qffQ2bb-Zqs180BpmQ3mQ_BRKheIcL8pA/a2.m3u8"
+        }
+      ],
+      "subtitles": [
+        {
+          "name": "Vietnamese",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/pYmduHHit-BXHk_WdmkfJ6mYJfy7l9gX8yLnbHBCDj6jlPFF7xNRiFptrn86BgktZwIENGN1bW1qffQ2bb-Zqs180BpmQ3mQ_BRKheIcL8pA/s0.m3u8"
+        },
+        {
+          "name": "English",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/pYmduHHit-BXHk_WdmkfJ6mYJfy7l9gX8yLnbHBCDj6jlPFF7xNRiFptrn86BgktZwIENGN1bW1qffQ2bb-Zqs180BpmQ3mQ_BRKheIcL8pA/s1.m3u8"
+        }
+      ],
+      "best_variant_url": "https://film4k.net/api/hls/pYmduHHit-BXHk_WdmkfJ6mYJfy7l9gX8yLnbHBCDj6jlPFF7xNRiFptrn86BgktZwIENGN1bW1qffQ2bb-Zqs180BpmQ3mQ_BRKheIcL8pA/v.m3u8",
+      "best_variant_status": 200,
+      "segment_test_url": "https://film4knet.ngaodacopho.workers.dev/tt/MS2ea3b4eQ3dwTC-cU_kOvxhVvCL_loMJqLu8a3mCfLyXeivILqMJq20bYx4B5I68oFebwfmjadggcPis84YwSkNMzLIfLuJaO0MfEtWX8PAGXGG3OvrWeqsxUiFNJjZj3xImj54rv45T0oavJXCwXKqE9LJ7i2s1HlXIqeUSsl-dfjOJiAgkeK4VoIeF5cvjRqsMHTyQAUUgV_JhHW0xy3oDSnKS7mPNgCbDXeUdorSMC2TDii_GEauynhgDMcLzYNLqMMqt7ysnK-pqdJzqSmN_1LaqhzCx1u1XFu-yAw4UMuGWQxl6Zp86iP7GksPOG62UwbpGdcF8rMiXAfd4l_L",
+      "segment_status": 206,
+      "segment_ok": true
+    },
+    {
+      "url": "https://film4k.net/api/hls/qalsCOV3-uWYCaq_2UcWWtfMMcIRhE7DNRgGgyQF65K5z0gY3NbRPiD-ksbM2vqL3zvsTcmuyw_FvHmR584Rb719X3RcA5EydRsT_pJfjohSH1myHtrtl_5C/master.m3u8",
+      "kind": "HLS",
+      "seen_from": [
+        "body:https://film4k.net/api/title/spider-man-brand-new-day"
+      ],
+      "content_type": "application/vnd.apple.mpegurl",
+      "status": 200,
+      "playable_http": true,
+      "is_manifest": true,
+      "variants": [
+        {
+          "url": "https://film4k.net/api/hls/qalsCOV3-uWYCaq_2UcWWtfMMcIRhE7DNRgGgyQF65K5z0gY3NbRPiD-ksbM2vqL3zvsTcmuyw_FvHmR584Rb719X3RcA5EydRsT_pJfjohSH1myHtrtl_5C/v.m3u8",
+          "width": 3840,
+          "height": 2160,
+          "bandwidth": 8150572
+        },
+        {
+          "url": "https://film4k.net/api/hls/qalsCOV3-uWYCaq_2UcWWtfMMcIRhE7DNRgGgyQF65K5z0gY3NbRPiD-ksbM2vqL3zvsTcmuyw_FvHmR584Rb719X3RcA5EydRsT_pJfjohSH1myHtrtl_5C/v.m3u8",
+          "width": 3840,
+          "height": 2160,
+          "bandwidth": 8150572
+        }
+      ],
+      "audio": [
+        {
+          "name": "English (6ch EAC3)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/qalsCOV3-uWYCaq_2UcWWtfMMcIRhE7DNRgGgyQF65K5z0gY3NbRPiD-ksbM2vqL3zvsTcmuyw_FvHmR584Rb719X3RcA5EydRsT_pJfjohSH1myHtrtl_5C/a0.m3u8"
+        },
+        {
+          "name": "English (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/qalsCOV3-uWYCaq_2UcWWtfMMcIRhE7DNRgGgyQF65K5z0gY3NbRPiD-ksbM2vqL3zvsTcmuyw_FvHmR584Rb719X3RcA5EydRsT_pJfjohSH1myHtrtl_5C/a1.m3u8"
+        },
+        {
+          "name": "English",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/qalsCOV3-uWYCaq_2UcWWtfMMcIRhE7DNRgGgyQF65K5z0gY3NbRPiD-ksbM2vqL3zvsTcmuyw_FvHmR584Rb719X3RcA5EydRsT_pJfjohSH1myHtrtl_5C/a2.m3u8"
+        }
+      ],
+      "subtitles": [
+        {
+          "name": "Vietnamese",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/qalsCOV3-uWYCaq_2UcWWtfMMcIRhE7DNRgGgyQF65K5z0gY3NbRPiD-ksbM2vqL3zvsTcmuyw_FvHmR584Rb719X3RcA5EydRsT_pJfjohSH1myHtrtl_5C/s0.m3u8"
+        },
+        {
+          "name": "English",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/qalsCOV3-uWYCaq_2UcWWtfMMcIRhE7DNRgGgyQF65K5z0gY3NbRPiD-ksbM2vqL3zvsTcmuyw_FvHmR584Rb719X3RcA5EydRsT_pJfjohSH1myHtrtl_5C/s1.m3u8"
+        }
+      ],
+      "best_variant_url": "https://film4k.net/api/hls/qalsCOV3-uWYCaq_2UcWWtfMMcIRhE7DNRgGgyQF65K5z0gY3NbRPiD-ksbM2vqL3zvsTcmuyw_FvHmR584Rb719X3RcA5EydRsT_pJfjohSH1myHtrtl_5C/v.m3u8",
+      "best_variant_status": 200,
+      "segment_test_url": "https://film4knet.ngaodacopho.workers.dev/tt/cFznAymR_Z3G7eqbtz2nZ-qQL3ipjU9TtLIDTach4S1OwzYf2iBf_hSWIlM09Vs48VT6c1gl1JnRHr227EqirgMf6YdQQsK5lIQ_pu2wbcbm8PkVRSFbXmA8RO8bV6qKkPo9mfgiGJldjcNslt09ZPuKlIBysZpPtCCVrQG9Y6aXV2KOUModrNPgIqCwfhxmmZJMBq5xSHEMlxqhjvB5mSMc-ysF01Fn3efE3WD4OTfhXVKsSXM-T72QhG8aFnrJh5Ko8ze1-rsM2_HsJnwRELBloJWTa_TjBInHWFpfYo-ZxEYblTVTlQEUR-9K6gh5evDMsucZZzN0LTiQ922swkrp",
+      "segment_status": 206,
+      "segment_ok": true
+    },
+    {
+      "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/master.m3u8",
+      "kind": "HLS",
+      "seen_from": [
+        "body:https://film4k.net/api/title/spider-man-brand-new-day"
+      ],
+      "content_type": "application/vnd.apple.mpegurl",
+      "status": 200,
+      "playable_http": true,
+      "is_manifest": true,
+      "variants": [
+        {
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/v.m3u8",
+          "width": 3840,
+          "height": 2040,
+          "bandwidth": 19897505
+        },
+        {
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/v.m3u8",
+          "width": 3840,
+          "height": 2040,
+          "bandwidth": 19897505
+        }
+      ],
+      "audio": [
+        {
+          "name": "English (DDP 5.1) (6ch EAC3)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a0.m3u8"
+        },
+        {
+          "name": "English (DDP 5.1) (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a1.m3u8"
+        },
+        {
+          "name": "English (DDP 5.1) (6ch EAC3)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a2.m3u8"
+        },
+        {
+          "name": "English (DDP 5.1) (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a3.m3u8"
+        },
+        {
+          "name": "Thai (DDP 5.1) (6ch EAC3)",
+          "language": "tha",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a4.m3u8"
+        },
+        {
+          "name": "Thai (DDP 5.1) (Stereo)",
+          "language": "tha",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a5.m3u8"
+        },
+        {
+          "name": "English (DDP 5.1) (6ch EAC3)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a6.m3u8"
+        },
+        {
+          "name": "English (DDP 5.1) (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a7.m3u8"
+        },
+        {
+          "name": "English (DDP 5.1) (6ch EAC3)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a8.m3u8"
+        },
+        {
+          "name": "English (DDP 5.1) (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a9.m3u8"
+        },
+        {
+          "name": "English (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a10.m3u8"
+        },
+        {
+          "name": "Cantonese (Stereo) (2ch EAC3)",
+          "language": "yue",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a11.m3u8"
+        },
+        {
+          "name": "Cantonese (Stereo) (Stereo)",
+          "language": "yue",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a12.m3u8"
+        },
+        {
+          "name": "Malay (Stereo)",
+          "language": "msa",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a13.m3u8"
+        },
+        {
+          "name": "Malay (Stereo) (2ch EAC3)",
+          "language": "msa",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a14.m3u8"
+        },
+        {
+          "name": "Malay (Stereo) (Stereo)",
+          "language": "msa",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a15.m3u8"
+        },
+        {
+          "name": "English (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a16.m3u8"
+        },
+        {
+          "name": "English (Stereo) (2ch EAC3)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a17.m3u8"
+        },
+        {
+          "name": "English (Stereo) (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a18.m3u8"
+        },
+        {
+          "name": "English (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a19.m3u8"
+        },
+        {
+          "name": "Thai (Stereo)",
+          "language": "tha",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a20.m3u8"
+        },
+        {
+          "name": "English (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a21.m3u8"
+        },
+        {
+          "name": "Cantonese (Stereo)",
+          "language": "yue",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/a22.m3u8"
+        }
+      ],
+      "subtitles": [
+        {
+          "name": "Malay (Forced)",
+          "language": "msa",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/s0.m3u8"
+        },
+        {
+          "name": "English (Forced)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/s1.m3u8"
+        },
+        {
+          "name": "Chinese (Forced)",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/s2.m3u8"
+        },
+        {
+          "name": "Chinese (Forced)",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/s3.m3u8"
+        },
+        {
+          "name": "Vietnamese (Forced)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/s4.m3u8"
+        },
+        {
+          "name": "Indonesian (Forced)",
+          "language": "ind",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/s5.m3u8"
+        },
+        {
+          "name": "Thai (Forced)",
+          "language": "tha",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/s6.m3u8"
+        },
+        {
+          "name": "Thai (Forced)",
+          "language": "tha",
+          "url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/s7.m3u8"
+        }
+      ],
+      "best_variant_url": "https://film4k.net/api/hls/FnTPsvGqnHXh6W9ojcTuXCnPdFiWnpVXPm4VQPP5o84vEo1DX-3BEPQ1A29ELlXVSGL2OznM3TcTxYmc-O-GRVndhVkhydzJuQ_haWheIr87LXWS/v.m3u8",
+      "best_variant_status": 200,
+      "segment_test_url": "https://film4knet.ngaodacopho.workers.dev/tt/VH10HSnGk7eQD20PzGT3uPchH3VXkoe6dvMbph7xTTPmevyOX0aDOLdYYXg312HC4pz3hgEdSXT-rFS_mFhaBH40APD_wWh9LveEHArSzBz5IvRleI8nHGc0_DfnN8OzBy3qnuqdVBOtlBD9KtIxIkC1fIFWblQOQ1CsXNvJFcGV58AlCJ4DO7Y-9LGcQQtm7xrrVjoDZJq0Vqhlb2vwfJyXlS3i4SaM4arQ4E4WCA0yEB0-xKB_Lax_6Mrja2CFTbl92wzSYppi6Ix_xJIM8GXnZ1acZoZdUXW6n-oG5zI6VwoPJ4Ccgh1n8o5NicPRa-1VNdO81kWRzD7GU6oNXg",
+      "segment_status": 206,
+      "segment_ok": true
+    },
+    {
+      "url": "https://film4k.net/api/hls/wlKCzKLHWdtmrYhrMTii8bnTWmNgEY16Ch2erhwW5hQTJv7dHKmm2-xFWwr-aFOtNn2WcRkTN_hdsu4BdPm8jzqXOaEfKjw6/master.m3u8",
+      "kind": "HLS",
+      "seen_from": [
+        "body:https://film4k.net/api/title/spider-man-brand-new-day"
+      ],
+      "content_type": "application/vnd.apple.mpegurl",
+      "status": 200,
+      "playable_http": true,
+      "is_manifest": true,
+      "variants": [
+        {
+          "url": "https://film4k.net/api/hls/wlKCzKLHWdtmrYhrMTii8bnTWmNgEY16Ch2erhwW5hQTJv7dHKmm2-xFWwr-aFOtNn2WcRkTN_hdsu4BdPm8jzqXOaEfKjw6/v.m3u8",
+          "width": 3840,
+          "height": 1608,
+          "bandwidth": 3554424
+        },
+        {
+          "url": "https://film4k.net/api/hls/wlKCzKLHWdtmrYhrMTii8bnTWmNgEY16Ch2erhwW5hQTJv7dHKmm2-xFWwr-aFOtNn2WcRkTN_hdsu4BdPm8jzqXOaEfKjw6/v.m3u8",
+          "width": 3840,
+          "height": 1608,
+          "bandwidth": 3554424
+        }
+      ],
+      "audio": [
+        {
+          "name": "ViE-AI - Film4k.net",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/wlKCzKLHWdtmrYhrMTii8bnTWmNgEY16Ch2erhwW5hQTJv7dHKmm2-xFWwr-aFOtNn2WcRkTN_hdsu4BdPm8jzqXOaEfKjw6/a0.m3u8"
+        },
+        {
+          "name": "Zh-cn [Dolby Digital Plus 5.1] (6ch EAC3)",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/wlKCzKLHWdtmrYhrMTii8bnTWmNgEY16Ch2erhwW5hQTJv7dHKmm2-xFWwr-aFOtNn2WcRkTN_hdsu4BdPm8jzqXOaEfKjw6/a1.m3u8"
+        },
+        {
+          "name": "Zh-cn [Dolby Digital Plus 5.1] (Stereo)",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/wlKCzKLHWdtmrYhrMTii8bnTWmNgEY16Ch2erhwW5hQTJv7dHKmm2-xFWwr-aFOtNn2WcRkTN_hdsu4BdPm8jzqXOaEfKjw6/a2.m3u8"
+        },
+        {
+          "name": "Zh-cn [DTS ]",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/wlKCzKLHWdtmrYhrMTii8bnTWmNgEY16Ch2erhwW5hQTJv7dHKmm2-xFWwr-aFOtNn2WcRkTN_hdsu4BdPm8jzqXOaEfKjw6/a3.m3u8"
+        },
+        {
+          "name": "Zh-cn [AAC 2.0]",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/wlKCzKLHWdtmrYhrMTii8bnTWmNgEY16Ch2erhwW5hQTJv7dHKmm2-xFWwr-aFOtNn2WcRkTN_hdsu4BdPm8jzqXOaEfKjw6/a4.m3u8"
+        }
+      ],
+      "subtitles": [
+        {
+          "name": "Film4k.net",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/wlKCzKLHWdtmrYhrMTii8bnTWmNgEY16Ch2erhwW5hQTJv7dHKmm2-xFWwr-aFOtNn2WcRkTN_hdsu4BdPm8jzqXOaEfKjw6/s0.m3u8"
+        }
+      ],
+      "best_variant_url": "https://film4k.net/api/hls/wlKCzKLHWdtmrYhrMTii8bnTWmNgEY16Ch2erhwW5hQTJv7dHKmm2-xFWwr-aFOtNn2WcRkTN_hdsu4BdPm8jzqXOaEfKjw6/v.m3u8",
+      "best_variant_status": 200,
+      "segment_test_url": "https://film4knet.ngaodacopho.workers.dev/tt/DhNYDoP3Cvv3Kl1K1bHpUmMc65FfDXhx1bfWZRZmw9fT-idrF-RtT7ZuoT3OKOchFuIGtoz-4VK3NxKn_jFJKHSQx5ksh1X_ZwwbcghXW-bBK1tAfNHgAAWo8PF7DxCpyftUMaaaXqzI73f897Mdb3OMhnx5J02EtGfPumvNc14NbSaMd7Kx-BO3Ts73psDDT_buFVL5tx6sB_rUEqTLPjdf7QGJGhxLdGig9KfoRzcGTf5o8GHlYYpeP1_BLBIUjx_1aPTtT9t_XhqFI63ZGUOsAONc9OxwU1iKL45SUa6cnD3_W4PdwV-_xzSPYpv3zTBXIPviQ4c_yJrV5YGuTwQjUlE",
+      "segment_status": 206,
+      "segment_ok": true
+    },
+    {
+      "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/master.m3u8",
+      "kind": "HLS",
+      "seen_from": [
+        "body:https://film4k.net/api/title/spider-man-brand-new-day"
+      ],
+      "content_type": "application/vnd.apple.mpegurl",
+      "status": 200,
+      "playable_http": true,
+      "is_manifest": true,
+      "variants": [
+        {
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/v.m3u8",
+          "width": 3840,
+          "height": 1600,
+          "bandwidth": 18844886
+        },
+        {
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/v.m3u8",
+          "width": 3840,
+          "height": 1600,
+          "bandwidth": 18844886
+        }
+      ],
+      "audio": [
+        {
+          "name": "ENG (6ch EAC3)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/a0.m3u8"
+        },
+        {
+          "name": "ENG (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/a1.m3u8"
+        },
+        {
+          "name": "ViE-AI Film4k.net (2ch EAC3)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/a2.m3u8"
+        },
+        {
+          "name": "ViE-AI Film4k.net (Stereo)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/a3.m3u8"
+        }
+      ],
+      "subtitles": [
+        {
+          "name": "Vietnam - Film4k.net",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s0.m3u8"
+        },
+        {
+          "name": "ENG",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s1.m3u8"
+        },
+        {
+          "name": "SDH",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s2.m3u8"
+        },
+        {
+          "name": "ARA",
+          "language": "ara",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s3.m3u8"
+        },
+        {
+          "name": "AZE",
+          "language": "aze",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s4.m3u8"
+        },
+        {
+          "name": "BUL",
+          "language": "bul",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s5.m3u8"
+        },
+        {
+          "name": "European",
+          "language": "cat",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s6.m3u8"
+        },
+        {
+          "name": "CZE",
+          "language": "cze",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s7.m3u8"
+        },
+        {
+          "name": "DAN",
+          "language": "dan",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s8.m3u8"
+        },
+        {
+          "name": "GER",
+          "language": "ger",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s9.m3u8"
+        },
+        {
+          "name": "GRE",
+          "language": "gre",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s10.m3u8"
+        },
+        {
+          "name": "Latin American",
+          "language": "spa",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s11.m3u8"
+        },
+        {
+          "name": "SPA",
+          "language": "spa",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s12.m3u8"
+        },
+        {
+          "name": "Estonia",
+          "language": "est",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s13.m3u8"
+        },
+        {
+          "name": "European",
+          "language": "baq",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s14.m3u8"
+        },
+        {
+          "name": "FIN",
+          "language": "fin",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s15.m3u8"
+        },
+        {
+          "name": "Canadian",
+          "language": "fre",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s16.m3u8"
+        },
+        {
+          "name": "FRE",
+          "language": "fre",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s17.m3u8"
+        },
+        {
+          "name": "European",
+          "language": "glg",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s18.m3u8"
+        },
+        {
+          "name": "HEB",
+          "language": "heb",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s19.m3u8"
+        },
+        {
+          "name": "HIN",
+          "language": "hin",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s20.m3u8"
+        },
+        {
+          "name": "HRV",
+          "language": "hrv",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s21.m3u8"
+        },
+        {
+          "name": "HUN",
+          "language": "hun",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s22.m3u8"
+        },
+        {
+          "name": "Armenia",
+          "language": "arm",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s23.m3u8"
+        },
+        {
+          "name": "IND",
+          "language": "ind",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s24.m3u8"
+        },
+        {
+          "name": "ICE",
+          "language": "ice",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s25.m3u8"
+        },
+        {
+          "name": "ITA",
+          "language": "ita",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s26.m3u8"
+        },
+        {
+          "name": "JPN",
+          "language": "jpn",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s27.m3u8"
+        },
+        {
+          "name": "Georgia",
+          "language": "geo",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s28.m3u8"
+        },
+        {
+          "name": "Kazakhstan",
+          "language": "kaz",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s29.m3u8"
+        },
+        {
+          "name": "Cambodia",
+          "language": "khm",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s30.m3u8"
+        },
+        {
+          "name": "KAN",
+          "language": "kan",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s31.m3u8"
+        },
+        {
+          "name": "KOR",
+          "language": "kor",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s32.m3u8"
+        },
+        {
+          "name": "Kyrgyzstan",
+          "language": "kir",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s33.m3u8"
+        },
+        {
+          "name": "LIT",
+          "language": "lit",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s34.m3u8"
+        },
+        {
+          "name": "LAV",
+          "language": "lav",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s35.m3u8"
+        },
+        {
+          "name": "MAC",
+          "language": "mac",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s36.m3u8"
+        },
+        {
+          "name": "MAL",
+          "language": "mal",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s37.m3u8"
+        },
+        {
+          "name": "MON",
+          "language": "mon",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s38.m3u8"
+        },
+        {
+          "name": "MAY",
+          "language": "may",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s39.m3u8"
+        },
+        {
+          "name": "Myanmar (Burma)",
+          "language": "bur",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s40.m3u8"
+        },
+        {
+          "name": "NOB",
+          "language": "nob",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s41.m3u8"
+        },
+        {
+          "name": "Flemish",
+          "language": "dut",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s42.m3u8"
+        },
+        {
+          "name": "DUT",
+          "language": "dut",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s43.m3u8"
+        },
+        {
+          "name": "POL",
+          "language": "pol",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s44.m3u8"
+        },
+        {
+          "name": "Brazilian",
+          "language": "por",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s45.m3u8"
+        },
+        {
+          "name": "POR",
+          "language": "por",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s46.m3u8"
+        },
+        {
+          "name": "RUM",
+          "language": "rum",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s47.m3u8"
+        },
+        {
+          "name": "RUS",
+          "language": "rus",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s48.m3u8"
+        },
+        {
+          "name": "SLO",
+          "language": "slo",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s49.m3u8"
+        },
+        {
+          "name": "SLV",
+          "language": "slv",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s50.m3u8"
+        },
+        {
+          "name": "Albania",
+          "language": "alb",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s51.m3u8"
+        },
+        {
+          "name": "SRP",
+          "language": "srp",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s52.m3u8"
+        },
+        {
+          "name": "SWE",
+          "language": "swe",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s53.m3u8"
+        },
+        {
+          "name": "TAM",
+          "language": "tam",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s54.m3u8"
+        },
+        {
+          "name": "TEL",
+          "language": "tel",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s55.m3u8"
+        },
+        {
+          "name": "THA",
+          "language": "tha",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s56.m3u8"
+        },
+        {
+          "name": "TUR",
+          "language": "tur",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s57.m3u8"
+        },
+        {
+          "name": "Ukraine",
+          "language": "ukr",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s58.m3u8"
+        },
+        {
+          "name": "Vietnam",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s59.m3u8"
+        },
+        {
+          "name": "Simplified",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s60.m3u8"
+        },
+        {
+          "name": "Traditional",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/s61.m3u8"
+        }
+      ],
+      "best_variant_url": "https://film4k.net/api/hls/RQwvrQy60m7nXo7PNi8NyGLW3KGlI3qGc815VCMp39hWE8jyPNb-NfbV2F-burxbTj72h6QRHHNIKwYQTqj0d3OvQ4hgSsEkCNShoD9bCC_MsiduvxxvElGR/v.m3u8",
+      "best_variant_status": 200,
+      "segment_test_url": "https://film4knet.ngaodacopho.workers.dev/tt/vwtbi1H62ch_TNW3OLlPYQ6E4Aj0b4sPhUucMp6QmuMLNgNmW9bjdcAT2swThB6f71lHrxpi9GjnLWqA9Ituyh8x5pwxMTVB4uNiRe_TnphFTm4YV8DXZNZKhNttB0Jid5Qhzsr4zZX0IOjfVctO5QQe9Ds0FPK88GDCjh-Dk90rlT0JD0D26aTNcW6bLHF90Swhd2lhWQEOWW-CiftQ6UYyGAXkO9fgSanHV-j-HbtKIi2I0CsFXnhMNJOOxVYZa_-7Lx96Xm_nSU-d7l_ogb0k5Tq3aYu5HM7S9IGHGfuerkC8w4qMQr2SeuKxSrfcDzI0JJF2dTk8C9QSzgK6ri6s",
+      "segment_status": 206,
+      "segment_ok": true
+    },
+    {
+      "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/master.m3u8",
+      "kind": "HLS",
+      "seen_from": [
+        "body:https://film4k.net/api/watch/spider-man-brand-new-day",
+        "request:xhr",
+        "response"
+      ],
+      "content_type": "application/vnd.apple.mpegurl",
+      "request_headers": {
+        "referer": "https://film4k.net/watch/spider-man-brand-new-day",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36"
+      },
+      "status": 200,
+      "playable_http": true,
+      "is_manifest": true,
+      "variants": [
+        {
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/v.m3u8",
+          "width": 3832,
+          "height": 1600,
+          "bandwidth": 24161885
+        },
+        {
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/v.m3u8",
+          "width": 3832,
+          "height": 1600,
+          "bandwidth": 24161885
+        }
+      ],
+      "audio": [
+        {
+          "name": "ENG (6ch EAC3)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/a0.m3u8"
+        },
+        {
+          "name": "ENG (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/a1.m3u8"
+        },
+        {
+          "name": "ViE-AI - Film4k.net (2ch EAC3)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/a2.m3u8"
+        },
+        {
+          "name": "ViE-AI - Film4k.net (Stereo)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/a3.m3u8"
+        }
+      ],
+      "subtitles": [
+        {
+          "name": "Film4k.net",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s0.m3u8"
+        },
+        {
+          "name": "English (UK)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s1.m3u8"
+        },
+        {
+          "name": "български",
+          "language": "bul",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s2.m3u8"
+        },
+        {
+          "name": "Čeština",
+          "language": "cze",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s3.m3u8"
+        },
+        {
+          "name": "dansk",
+          "language": "dan",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s4.m3u8"
+        },
+        {
+          "name": "Deutsch (Deutschland)",
+          "language": "ger",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s5.m3u8"
+        },
+        {
+          "name": "Ελληνικά",
+          "language": "gre",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s6.m3u8"
+        },
+        {
+          "name": "English (CC)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s7.m3u8"
+        },
+        {
+          "name": "Español (Latinoamérica)",
+          "language": "spa",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s8.m3u8"
+        },
+        {
+          "name": "Español (España)",
+          "language": "spa",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s9.m3u8"
+        },
+        {
+          "name": "eesti",
+          "language": "est",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s10.m3u8"
+        },
+        {
+          "name": "Suomi",
+          "language": "fin",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s11.m3u8"
+        },
+        {
+          "name": "Français (France)",
+          "language": "fre",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s12.m3u8"
+        },
+        {
+          "name": "עברית",
+          "language": "heb",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s13.m3u8"
+        },
+        {
+          "name": "Hrvatski",
+          "language": "hrv",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s14.m3u8"
+        },
+        {
+          "name": "magyar",
+          "language": "hun",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s15.m3u8"
+        },
+        {
+          "name": "Bahasa Indonesia",
+          "language": "ind",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s16.m3u8"
+        },
+        {
+          "name": "íslenska",
+          "language": "ice",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s17.m3u8"
+        },
+        {
+          "name": "Italiano",
+          "language": "ita",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s18.m3u8"
+        },
+        {
+          "name": "日本語",
+          "language": "jpn",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s19.m3u8"
+        },
+        {
+          "name": "한국어",
+          "language": "kor",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s20.m3u8"
+        },
+        {
+          "name": "lietuvių",
+          "language": "lit",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s21.m3u8"
+        },
+        {
+          "name": "latviešu",
+          "language": "lav",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s22.m3u8"
+        },
+        {
+          "name": "Nederlands (Nederland)",
+          "language": "dut",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s23.m3u8"
+        },
+        {
+          "name": "norsk",
+          "language": "nor",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s24.m3u8"
+        },
+        {
+          "name": "polski",
+          "language": "pol",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s25.m3u8"
+        },
+        {
+          "name": "português (Portugal)",
+          "language": "por",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s26.m3u8"
+        },
+        {
+          "name": "Português (Brasil)",
+          "language": "por",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s27.m3u8"
+        },
+        {
+          "name": "română",
+          "language": "rum",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s28.m3u8"
+        },
+        {
+          "name": "Slovenčina",
+          "language": "slo",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s29.m3u8"
+        },
+        {
+          "name": "slovenščina",
+          "language": "slv",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s30.m3u8"
+        },
+        {
+          "name": "српски",
+          "language": "srp",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s31.m3u8"
+        },
+        {
+          "name": "Svenska",
+          "language": "swe",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s32.m3u8"
+        },
+        {
+          "name": "ไทย",
+          "language": "tha",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s33.m3u8"
+        },
+        {
+          "name": "Türkçe",
+          "language": "tur",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s34.m3u8"
+        },
+        {
+          "name": "Tiếng Việt",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s35.m3u8"
+        },
+        {
+          "name": "中文（繁體）",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s36.m3u8"
+        },
+        {
+          "name": "廣東話",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s37.m3u8"
+        },
+        {
+          "name": "中文（简体）",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s38.m3u8"
+        }
+      ],
+      "best_variant_url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/v.m3u8",
+      "best_variant_status": 200,
+      "segment_test_url": "https://film4knet.ngaodacopho.workers.dev/tt/NCEf4bVlY_P8L_vTSefqDApZR506QOegSFHdI52CxqyT6OdiC4mgq5gU4-H1l_yyPDohDSMK72MtBchnjCAniRbr3VeYBoPamfmvoGbx8t6ofUtq---_ZaoZviGzResx-_T0YinXR-uQWbq1ow38tUiP9VyPBkShDz1rxLVagdomnIZAH1VXadW2_aZl16b-cGQXQngj6x8qq41JHwStMaW727L7Xxlwk2w0Wb6oFZ6VgWweIIYPSZo7Did5V00Ea_bYqa8mlZhmb9hn9AgvGg3k6Gqp6R36AkG8zmwK_cqpsdoCmI20vZecU-XKC55I45PV4yawHSgiLSO1AII_CH54",
+      "segment_status": 206,
+      "segment_ok": true
+    },
+    {
+      "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/master.m3u8",
+      "kind": "HLS",
+      "seen_from": [
+        "body:https://film4k.net/api/title/spider-man-brand-new-day"
+      ],
+      "content_type": "application/vnd.apple.mpegurl",
+      "status": 200,
+      "playable_http": true,
+      "is_manifest": true,
+      "variants": [
+        {
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/v.m3u8",
+          "width": 3832,
+          "height": 1600,
+          "bandwidth": 24161885
+        },
+        {
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/v.m3u8",
+          "width": 3832,
+          "height": 1600,
+          "bandwidth": 24161885
+        }
+      ],
+      "audio": [
+        {
+          "name": "ENG (6ch EAC3)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/a0.m3u8"
+        },
+        {
+          "name": "ENG (Stereo)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/a1.m3u8"
+        },
+        {
+          "name": "ViE-AI - Film4k.net (2ch EAC3)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/a2.m3u8"
+        },
+        {
+          "name": "ViE-AI - Film4k.net (Stereo)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/a3.m3u8"
+        }
+      ],
+      "subtitles": [
+        {
+          "name": "Film4k.net",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s0.m3u8"
+        },
+        {
+          "name": "English (UK)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s1.m3u8"
+        },
+        {
+          "name": "български",
+          "language": "bul",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s2.m3u8"
+        },
+        {
+          "name": "Čeština",
+          "language": "cze",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s3.m3u8"
+        },
+        {
+          "name": "dansk",
+          "language": "dan",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s4.m3u8"
+        },
+        {
+          "name": "Deutsch (Deutschland)",
+          "language": "ger",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s5.m3u8"
+        },
+        {
+          "name": "Ελληνικά",
+          "language": "gre",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s6.m3u8"
+        },
+        {
+          "name": "English (CC)",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s7.m3u8"
+        },
+        {
+          "name": "Español (Latinoamérica)",
+          "language": "spa",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s8.m3u8"
+        },
+        {
+          "name": "Español (España)",
+          "language": "spa",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s9.m3u8"
+        },
+        {
+          "name": "eesti",
+          "language": "est",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s10.m3u8"
+        },
+        {
+          "name": "Suomi",
+          "language": "fin",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s11.m3u8"
+        },
+        {
+          "name": "Français (France)",
+          "language": "fre",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s12.m3u8"
+        },
+        {
+          "name": "עברית",
+          "language": "heb",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s13.m3u8"
+        },
+        {
+          "name": "Hrvatski",
+          "language": "hrv",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s14.m3u8"
+        },
+        {
+          "name": "magyar",
+          "language": "hun",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s15.m3u8"
+        },
+        {
+          "name": "Bahasa Indonesia",
+          "language": "ind",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s16.m3u8"
+        },
+        {
+          "name": "íslenska",
+          "language": "ice",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s17.m3u8"
+        },
+        {
+          "name": "Italiano",
+          "language": "ita",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s18.m3u8"
+        },
+        {
+          "name": "日本語",
+          "language": "jpn",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s19.m3u8"
+        },
+        {
+          "name": "한국어",
+          "language": "kor",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s20.m3u8"
+        },
+        {
+          "name": "lietuvių",
+          "language": "lit",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s21.m3u8"
+        },
+        {
+          "name": "latviešu",
+          "language": "lav",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s22.m3u8"
+        },
+        {
+          "name": "Nederlands (Nederland)",
+          "language": "dut",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s23.m3u8"
+        },
+        {
+          "name": "norsk",
+          "language": "nor",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s24.m3u8"
+        },
+        {
+          "name": "polski",
+          "language": "pol",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s25.m3u8"
+        },
+        {
+          "name": "português (Portugal)",
+          "language": "por",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s26.m3u8"
+        },
+        {
+          "name": "Português (Brasil)",
+          "language": "por",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s27.m3u8"
+        },
+        {
+          "name": "română",
+          "language": "rum",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s28.m3u8"
+        },
+        {
+          "name": "Slovenčina",
+          "language": "slo",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s29.m3u8"
+        },
+        {
+          "name": "slovenščina",
+          "language": "slv",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s30.m3u8"
+        },
+        {
+          "name": "српски",
+          "language": "srp",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s31.m3u8"
+        },
+        {
+          "name": "Svenska",
+          "language": "swe",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s32.m3u8"
+        },
+        {
+          "name": "ไทย",
+          "language": "tha",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s33.m3u8"
+        },
+        {
+          "name": "Türkçe",
+          "language": "tur",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s34.m3u8"
+        },
+        {
+          "name": "Tiếng Việt",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s35.m3u8"
+        },
+        {
+          "name": "中文（繁體）",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s36.m3u8"
+        },
+        {
+          "name": "廣東話",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s37.m3u8"
+        },
+        {
+          "name": "中文（简体）",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/s38.m3u8"
+        }
+      ],
+      "best_variant_url": "https://film4k.net/api/hls/DbYrHJRLPSQkDqAzztExkL1QRgLAQ_kUndmQsFl_-RxVf56denm9uBz-bSTR3KeMah2xvgAzOMCYKowVfZHUyfvVVr6GTt547XiXIEfXg14IoZCAxx0QjQCO7w/v.m3u8",
+      "best_variant_status": 200,
+      "segment_test_url": "https://film4knet.ngaodacopho.workers.dev/tt/NCEf4bVlY_P8L_vTSefqDApZR506QOegSFHdI52CxqyT6OdiC4mgq5gU4-H1l_yyPDohDSMK72MtBchnjCAniRbr3VeYBoPamfmvoGbx8t6ofUtq---_ZaoZviGzResx-_T0YinXR-uQWbq1ow38tUiP9VyPBkShDz1rxLVagdomnIZAH1VXadW2_aZl16b-cGQXQngj6x8qq41JHwStMaW727L7Xxlwk2w0Wb6oFZ6VgWweIIYPSZo7Did5V00Ea_bYqa8mlZhmb9hn9AgvGg3k6Gqp6R36AkG8zmwK_cqpsdoCmI20vZecU-XKC55I45PV4yawHSgiLSO1AII_CH54",
+      "segment_status": 206,
+      "segment_ok": true
+    },
+    {
+      "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/master.m3u8",
+      "kind": "HLS",
+      "seen_from": [
+        "body:https://film4k.net/api/title/spider-man-brand-new-day"
+      ],
+      "content_type": "application/vnd.apple.mpegurl",
+      "status": 200,
+      "playable_http": true,
+      "is_manifest": true,
+      "variants": [
+        {
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/v.m3u8",
+          "width": 1920,
+          "height": 1080,
+          "bandwidth": 7792145
+        },
+        {
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/v.m3u8",
+          "width": 1920,
+          "height": 1080,
+          "bandwidth": 7792145
+        }
+      ],
+      "audio": [
+        {
+          "name": "Thuyet minh [007] (6ch EAC3)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/a0.m3u8"
+        },
+        {
+          "name": "Thuyet minh [007] (Stereo)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/a1.m3u8"
+        },
+        {
+          "name": "Thuyet minh [009-02] (6ch EAC3)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/a2.m3u8"
+        },
+        {
+          "name": "Thuyet minh [009-02] (Stereo)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/a3.m3u8"
+        },
+        {
+          "name": "JPN (6ch EAC3)",
+          "language": "jpn",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/a4.m3u8"
+        },
+        {
+          "name": "JPN (Stereo)",
+          "language": "jpn",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/a5.m3u8"
+        }
+      ],
+      "subtitles": [
+        {
+          "name": "ENG",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s0.m3u8"
+        },
+        {
+          "name": "SDH",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s1.m3u8"
+        },
+        {
+          "name": "JPN",
+          "language": "jpn",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s2.m3u8"
+        },
+        {
+          "name": "SDH",
+          "language": "jpn",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s3.m3u8"
+        },
+        {
+          "name": "ARA",
+          "language": "ara",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s4.m3u8"
+        },
+        {
+          "name": "Latin American",
+          "language": "spa",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s5.m3u8"
+        },
+        {
+          "name": "SPA",
+          "language": "spa",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s6.m3u8"
+        },
+        {
+          "name": "FRE",
+          "language": "fre",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s7.m3u8"
+        },
+        {
+          "name": "IND",
+          "language": "ind",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s8.m3u8"
+        },
+        {
+          "name": "MAY",
+          "language": "may",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s9.m3u8"
+        },
+        {
+          "name": "DUT",
+          "language": "dut",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s10.m3u8"
+        },
+        {
+          "name": "POL",
+          "language": "pol",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s11.m3u8"
+        },
+        {
+          "name": "Brazilian",
+          "language": "por",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s12.m3u8"
+        },
+        {
+          "name": "RUM",
+          "language": "rum",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s13.m3u8"
+        },
+        {
+          "name": "THA",
+          "language": "tha",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s14.m3u8"
+        },
+        {
+          "name": "TUR",
+          "language": "tur",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s15.m3u8"
+        },
+        {
+          "name": "VIE",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s16.m3u8"
+        },
+        {
+          "name": "Simplified",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s17.m3u8"
+        },
+        {
+          "name": "Traditional",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/s18.m3u8"
+        }
+      ],
+      "best_variant_url": "https://film4k.net/api/hls/cCF15VWSuBcfUY74zBlGQCrRk9KYG8pzhO8mqZ0JF6ITTRhZtCIfHw1eKRiINlqVy7QMGCPe-gm2EkoBa-ErcYh22AUYB6zgCl5PFipzqA/v.m3u8",
+      "best_variant_status": 200,
+      "segment_test_url": "https://film4knet.ngaodacopho.workers.dev/tt/oda59qCQDVDB9TtlwduC5mum2LI1jeRzqjik8LrxIuyMN62qFDNtXO92iTSIPirYHTdrbHQ9dhe30iLJ6CTQFLvPsdOodNqvOPB0p4fr7wITuA5UthO9vOA_Hdy7GNlo7syBbWVEYGbkvkozQET7X43CrpxfMIEO0GIfQLRvy3ZQzi9nKHbucTpDL9HXacIMyFKuEVflzUd4FEFb1HE62dxZp-RgYuEv_9uRINeU0DTniMBkq1reImOeDdhdrA2cS-Xbeo9v-4pzEy4GLSTr7WPUucRZg4sg3nh1W8dylslKdlIe877_NXW0VJs-EF_OX1U4Wkq5e3WjYkrSRNzNMUxD",
+      "segment_status": 206,
+      "segment_ok": true
+    },
+    {
+      "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/master.m3u8",
+      "kind": "HLS",
+      "seen_from": [
+        "body:https://film4k.net/api/title/spider-man-brand-new-day"
+      ],
+      "content_type": "application/vnd.apple.mpegurl",
+      "status": 200,
+      "playable_http": true,
+      "is_manifest": true,
+      "variants": [
+        {
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/v.m3u8",
+          "width": 1920,
+          "height": 804,
+          "bandwidth": 11277027
+        },
+        {
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/v.m3u8",
+          "width": 1920,
+          "height": 804,
+          "bandwidth": 11277027
+        },
+        {
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/v.m3u8",
+          "width": 1920,
+          "height": 804,
+          "bandwidth": 11277027
+        }
+      ],
+      "audio": [
+        {
+          "name": "Thuyet minh [007] (6ch EAC3)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/a0.m3u8"
+        },
+        {
+          "name": "Thuyet minh [007] (Stereo)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/a1.m3u8"
+        },
+        {
+          "name": "Thuyet minh [009-02] (6ch EAC3)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/a2.m3u8"
+        },
+        {
+          "name": "Thuyet minh [009-02] (Stereo)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/a3.m3u8"
+        },
+        {
+          "name": "JPN (6ch AC3)",
+          "language": "jpn",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/a4.m3u8"
+        },
+        {
+          "name": "JPN (Stereo)",
+          "language": "jpn",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/a5.m3u8"
+        }
+      ],
+      "subtitles": [
+        {
+          "name": "ENG",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s0.m3u8"
+        },
+        {
+          "name": "ARA",
+          "language": "ara",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s1.m3u8"
+        },
+        {
+          "name": "Simplified",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s2.m3u8"
+        },
+        {
+          "name": "Traditional",
+          "language": "chi",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s3.m3u8"
+        },
+        {
+          "name": "DUT",
+          "language": "dut",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s4.m3u8"
+        },
+        {
+          "name": "FRE",
+          "language": "fre",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s5.m3u8"
+        },
+        {
+          "name": "IND",
+          "language": "ind",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s6.m3u8"
+        },
+        {
+          "name": "SDH",
+          "language": "jpn",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s7.m3u8"
+        },
+        {
+          "name": "MAY",
+          "language": "may",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s8.m3u8"
+        },
+        {
+          "name": "POL",
+          "language": "pol",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s9.m3u8"
+        },
+        {
+          "name": "Brazilian",
+          "language": "por",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s10.m3u8"
+        },
+        {
+          "name": "RUM",
+          "language": "rum",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s11.m3u8"
+        },
+        {
+          "name": "Latin-American",
+          "language": "spa",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s12.m3u8"
+        },
+        {
+          "name": "European",
+          "language": "spa",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s13.m3u8"
+        },
+        {
+          "name": "THA",
+          "language": "tha",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s14.m3u8"
+        },
+        {
+          "name": "TUR",
+          "language": "tur",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s15.m3u8"
+        },
+        {
+          "name": "VIE",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/s16.m3u8"
+        }
+      ],
+      "best_variant_url": "https://film4k.net/api/hls/AxEQYcN7LMOkxIo4hKQoi991HjII-YJ8zmfFqOBsk8nay4aXYDXqPGIweyWR-JCm4T_WO3qk9qEJndnhNWX4VtN3zC-OJkYRZl1FwidKJsiAPtLlyLKQsSA/v.m3u8",
+      "best_variant_status": 200,
+      "segment_test_url": "https://film4knet.ngaodacopho.workers.dev/tt/D_kIVOozdYFYDYPHzaT-3bNFHqcYpoQ31ZIFnXzBI2CWEih8Kp-tkAKb2lFIDoSBM1R5AHy7qVo3jjdhG-UoNFxQKNC3_ZXr1Tht3az5fYw0ueruLfy5dnwFPhxKUMRFCo9AqxmzKIoiN8nXibA_zRt87gML_gXONqyEJdWJaQxEElDktYI9iuokwh9XnFKqE663QvitlOdfxXH-3bKSbz41p7PXfcAWfucwcgiKATX7aKq7dMRvltrI7jRb0KJnktN5tEasnTVI2rT5FzSjt8UuUDFFQYR-etuXZK0G6NlSTHAXPpbu-nIHLRl9qKRLw2Ax_5opIdzvg9bsm7C6bg",
+      "segment_status": 206,
+      "segment_ok": true
+    },
+    {
+      "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/master.m3u8",
+      "kind": "HLS",
+      "seen_from": [
+        "body:https://film4k.net/api/title/spider-man-brand-new-day"
+      ],
+      "content_type": "application/vnd.apple.mpegurl",
+      "status": 200,
+      "playable_http": true,
+      "is_manifest": true,
+      "variants": [
+        {
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/v.m3u8",
+          "width": 1280,
+          "height": 544,
+          "bandwidth": 8002765
+        },
+        {
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/v.m3u8",
+          "width": 1280,
+          "height": 544,
+          "bandwidth": 8002765
+        }
+      ],
+      "audio": [
+        {
+          "name": "English DTS Core 5.1 @ 1.5 Mbps",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/a0.m3u8"
+        },
+        {
+          "name": "Vietnam DD 5.1 @ 640 kbps (6ch AC3)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/a1.m3u8"
+        },
+        {
+          "name": "Vietnam DD 5.1 @ 640 kbps (Stereo)",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/a2.m3u8"
+        },
+        {
+          "name": "Commentary 1 - Vorbis 2.0",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/a3.m3u8"
+        },
+        {
+          "name": "Commentary 2 - Vorbis 2.0",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/a4.m3u8"
+        }
+      ],
+      "subtitles": [
+        {
+          "name": "Croatian",
+          "language": "und",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/s0.m3u8"
+        },
+        {
+          "name": "CZE",
+          "language": "cze",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/s1.m3u8"
+        },
+        {
+          "name": "DAN",
+          "language": "dan",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/s2.m3u8"
+        },
+        {
+          "name": "ENG",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/s3.m3u8"
+        },
+        {
+          "name": "FIN",
+          "language": "fin",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/s4.m3u8"
+        },
+        {
+          "name": "FRE",
+          "language": "fre",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/s5.m3u8"
+        },
+        {
+          "name": "POL",
+          "language": "pol",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/s6.m3u8"
+        },
+        {
+          "name": "RUM",
+          "language": "rum",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/s7.m3u8"
+        },
+        {
+          "name": "SLV",
+          "language": "slv",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/s8.m3u8"
+        },
+        {
+          "name": "SWE",
+          "language": "swe",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/s9.m3u8"
+        },
+        {
+          "name": "PhudeViet.org",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/s10.m3u8"
+        }
+      ],
+      "best_variant_url": "https://film4k.net/api/hls/jXQkGWZqOyuDcWro8dx13L5oJl3L_NYRC0BlnUEMp8-9cK2O7aBvtGzieiatECQbh8grswToo47Xe80RrE10r3cbx6WS0NrFB24nU4keadik18-LeHlcuTbP/v.m3u8",
+      "best_variant_status": 200,
+      "segment_test_url": "https://film4knet.ngaodacopho.workers.dev/tt/MHKDsrcDIdEDP4Kq7aAgM3NH1o9pt1VVu4qaWy1K2-NZ96BlJsSJOn2HEMzUAQ94I-2s7DKOx0-0BW_CyH9ICJjVWaCyM9Qpolb6dyBEboEBMjvLkbVdQuUIVoa-PJLcJnJHeEL0tLbjp0qA0KomRfH2eD9byrhcn6rj2TxfhhOzYIG-N8dMw2B00fUEK1J_vBABQ9jj75nXNvTAgUVlC57jCHrfyBqjzW7_BPLhZ1w0g0sPH0Z7RZDeVYNRd2pG-uRaJsqh5boZCM7bV-FElN_GMEIHsLpz9n1US7zJA6bl0QTVbiI6aNSgUzPulozKr7Xx11Gv0wfm_U70qRe1Yg",
+      "segment_status": 206,
+      "segment_ok": true
+    },
+    {
+      "url": "https://film4k.net/api/hls/uhbI6msx49Nn-Vcm8gHAXQmB-xCtFOUrW0Y8GjGRrckbFUkZmGnia1EqtnPeQM5QwojmP8RgHTfUvrJXmDTe3mfuzIxxYPFQFonX5qE5TiVHywcGGLNjYZdRdiY/master.m3u8",
+      "kind": "HLS",
+      "seen_from": [
+        "body:https://film4k.net/api/title/spider-man-brand-new-day"
+      ],
+      "content_type": "application/vnd.apple.mpegurl",
+      "status": 200,
+      "playable_http": true,
+      "is_manifest": true,
+      "variants": [
+        {
+          "url": "https://film4k.net/api/hls/uhbI6msx49Nn-Vcm8gHAXQmB-xCtFOUrW0Y8GjGRrckbFUkZmGnia1EqtnPeQM5QwojmP8RgHTfUvrJXmDTe3mfuzIxxYPFQFonX5qE5TiVHywcGGLNjYZdRdiY/v.m3u8",
+          "width": 1280,
+          "height": 534,
+          "bandwidth": 7102354
+        }
+      ],
+      "audio": [
+        {
+          "name": "ViE DTS 5.1CH @ 1509 Kbps",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/uhbI6msx49Nn-Vcm8gHAXQmB-xCtFOUrW0Y8GjGRrckbFUkZmGnia1EqtnPeQM5QwojmP8RgHTfUvrJXmDTe3mfuzIxxYPFQFonX5qE5TiVHywcGGLNjYZdRdiY/a0.m3u8"
+        },
+        {
+          "name": "Eng DTS-ES 5.1 @ 1510 Kbps",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/uhbI6msx49Nn-Vcm8gHAXQmB-xCtFOUrW0Y8GjGRrckbFUkZmGnia1EqtnPeQM5QwojmP8RgHTfUvrJXmDTe3mfuzIxxYPFQFonX5qE5TiVHywcGGLNjYZdRdiY/a1.m3u8"
+        }
+      ],
+      "subtitles": [
+        {
+          "name": "VAV Studio Info",
+          "language": "fre",
+          "url": "https://film4k.net/api/hls/uhbI6msx49Nn-Vcm8gHAXQmB-xCtFOUrW0Y8GjGRrckbFUkZmGnia1EqtnPeQM5QwojmP8RgHTfUvrJXmDTe3mfuzIxxYPFQFonX5qE5TiVHywcGGLNjYZdRdiY/s0.m3u8"
+        },
+        {
+          "name": "ENG",
+          "language": "eng",
+          "url": "https://film4k.net/api/hls/uhbI6msx49Nn-Vcm8gHAXQmB-xCtFOUrW0Y8GjGRrckbFUkZmGnia1EqtnPeQM5QwojmP8RgHTfUvrJXmDTe3mfuzIxxYPFQFonX5qE5TiVHywcGGLNjYZdRdiY/s1.m3u8"
+        },
+        {
+          "name": "VIE",
+          "language": "vie",
+          "url": "https://film4k.net/api/hls/uhbI6msx49Nn-Vcm8gHAXQmB-xCtFOUrW0Y8GjGRrckbFUkZmGnia1EqtnPeQM5QwojmP8RgHTfUvrJXmDTe3mfuzIxxYPFQFonX5qE5TiVHywcGGLNjYZdRdiY/s2.m3u8"
+        }
+      ],
+      "best_variant_url": "https://film4k.net/api/hls/uhbI6msx49Nn-Vcm8gHAXQmB-xCtFOUrW0Y8GjGRrckbFUkZmGnia1EqtnPeQM5QwojmP8RgHTfUvrJXmDTe3mfuzIxxYPFQFonX5qE5TiVHywcGGLNjYZdRdiY/v.m3u8",
+      "best_variant_status": 200,
+      "segment_test_url": "https://film4knet.ngaodacopho.workers.dev/tt/Tt9B60si0QBgPI3b5E_TYGr6GrFjzRkzGwyGe877S_HLgT0UYt7-bKDlYThVEkFw2VWg8ft0q8zKIRTTH75n7KNqH7fDqBBtYd9DtmXLHQGedwHDtzaUM8LZSkls6IeMdLbJE9-vnNqMyxtv-3esNo0qRK4OVfSeTkpyndSi2JKL5AFqzF-d-A9rzSMfC7GVJk2Zv1I5bAXxoJCKrQ_aakfPfO3ugF_R60wxXdUQlvOQc-BcYtBBJo2SO5mwU554ZhzkOB2cM3BrXSsFg2tyrmZF0koH7sxtywKxKWQlQOaPHV3F15F2M2BS3bvjpofmRo61o8ewx7RCTZn-4uT1ReB5",
+      "segment_status": 206,
+      "segment_ok": true
+    }
+  ],
+  "generated_at_unix": 1791295711
+}

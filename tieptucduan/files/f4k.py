@@ -22,6 +22,7 @@ if ffprobe:
 else:
     print("\n[FFPROBE] not installed")
 
+# Build one fragmented MP4 from the already-downloaded local init + fragments.
 joined = d/"video_fragments.mp4"
 with joined.open("wb") as w:
     for f in files:
@@ -34,6 +35,7 @@ if ffprobe:
                     "-show_entries", "format=format_name,duration:stream=index,codec_name,codec_type,profile,width,height,pix_fmt",
                     "-of", "json", str(joined)])
 
+# If ffmpeg exists, remux the local fragmented MP4 without re-encoding.
 remux = d/"video_remux.mkv"
 if ffmpeg:
     print("\n=== REMUX ===")

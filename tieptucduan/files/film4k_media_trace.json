@@ -1,0 +1,38 @@
+[
+  {
+    "status": 200,
+    "resource_type": "xhr",
+    "content_type": "application/vnd.apple.mpegurl",
+    "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/master.m3u8"
+  },
+  {
+    "status": 200,
+    "resource_type": "xhr",
+    "content_type": "application/vnd.apple.mpegurl",
+    "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/a0.m3u8"
+  },
+  {
+    "status": 200,
+    "resource_type": "xhr",
+    "content_type": "application/vnd.apple.mpegurl",
+    "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/v.m3u8"
+  },
+  {
+    "status": 200,
+    "resource_type": "xhr",
+    "content_type": "application/vnd.apple.mpegurl",
+    "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/s0.m3u8"
+  },
+  {
+    "status": 200,
+    "resource_type": "xhr",
+    "content_type": "application/vnd.apple.mpegurl",
+    "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/v.m3u8"
+  },
+  {
+    "status": 200,
+    "resource_type": "xhr",
+    "content_type": "application/vnd.apple.mpegurl",
+    "url": "https://film4k.net/api/hls/7mfDwbgx0tqPVuzFc6MXkDomw8cU-AaqglHkfBZfz8XAGo7Sw2vmwmFFRvC0L53Ft6Bu4zJLPcChKU_Lav7awEmKU6gZizY7FFG8NTY8bn5cno8Ch_QtvJtypw/a1.m3u8"
+  }
+]

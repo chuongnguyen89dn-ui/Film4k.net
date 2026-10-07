@@ -15,6 +15,7 @@ def find_vlc():
     raise SystemExit("Khong tim thay VLC")
 
 def find_segment(obj):
+    # Current Film4K result schema.
     best = obj.get("best") if isinstance(obj, dict) else None
     if isinstance(best, dict):
         for k in ("segment_test_url", "segment_url"):
@@ -23,6 +24,7 @@ def find_segment(obj):
     for k in ("segment_test_url", "segment_url"):
         if isinstance(obj, dict) and obj.get(k):
             return obj[k]
+    # Fallback: recursively find the first worker URL.
     def walk(v):
         if isinstance(v, dict):
             for x in v.values():
