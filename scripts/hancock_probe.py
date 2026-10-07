@@ -182,6 +182,7 @@ async def probe(args):
             await context.set_extra_http_headers({'x-f4k-pt': ticket})
 
             stage = 'register_view'
+            slug = urlparse(watch_url).path.rstrip('/').split('/')[-1]
             view_resp = await context.request.post(
                 'https://film4k.net/api/view',
                 headers={'content-type': 'application/json', 'referer': watch_url},
