@@ -90,6 +90,36 @@ def media_summary(body):
             'init_present': init, 'endlist': end}
 
 
+
+def media_resources(body, base):
+    init_url = None
+    segments = []
+    pending = None
+    for raw in body.splitlines():
+        line = raw.strip()
+        if line.startswith('#EXT-X-MAP:'):
+            uri = attributes(line).get('URI')
+            if uri:
+                init_url = urljoin(base, uri)
+        elif line.startswith('#EXTINF:'):
+            pending = float(line.split(':', 1)[1].split(',')[0])
+        elif line and not line.startswith('#') and pending is not None:
+            segments.append({'url': urljoin(base, line), 'duration': pending})
+            pending = None
+    if not init_url or not segments:
+        raise ValueError('media_resources_missing')
+    return init_url, segments
+
+
+async def verify_resource(request, url, headers):
+    response = await request.get(url, headers=headers, timeout=20000, max_redirects=0)
+    if response.status not in (200, 206):
+        raise ValueError(f'resource_http_{response.status}')
+    body = await response.body()
+    if not body:
+        raise ValueError('resource_empty')
+    return {'http': response.status, 'bytes': len(body)}
+
 def normal_movie_url(value):
     u = urlsplit(value)
     if (u.scheme != 'https' or u.netloc != 'film4k.net' or u.query or u.fragment
@@ -229,10 +259,25 @@ async def probe(args):
                 stage = f'validate_{kind}_playlist'
                 summary[kind] = media_summary(item['body'])
                 bundle[kind] = {'url': url, **item}
+                init_url, segments = media_resources(item['body'], url)
+                checkpoints = {
+                    'start': 0,
+                    'middle': summary[kind]['seek_points_zero_based']['middle'],
+                    'near_end_30s': summary[kind]['seek_points_zero_based']['near_end_30s'],
+                }
+                checks = {'init': await verify_resource(context.request, init_url, item['headers'])}
+                for label, index in checkpoints.items():
+                    if index is None or index >= len(segments):
+                        raise ValueError(f'{kind}_{label}_segment_missing')
+                    checks[label] = await verify_resource(
+                        context.request, segments[index]['url'], item['headers'])
+                summary[kind]['resource_checks'] = checks
             args.output.mkdir(parents=True, exist_ok=True, mode=0o700)
             private = args.output / 'session.json'
             private.write_text(json.dumps(bundle, ensure_ascii=False), encoding='utf-8')
             private.chmod(0o600)
+            (args.output / 'summary.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
+            summary['segments_verified'] = True
             (args.output / 'summary.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
             print(json.dumps(summary, ensure_ascii=False, indent=2))
             return 0
