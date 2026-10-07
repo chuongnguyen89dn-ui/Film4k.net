@@ -87,6 +87,7 @@ async def probe(args):
     from playwright.async_api import async_playwright
     captured, pending = {}, set()
     ready = asyncio.Event()
+    stage = 'launch'
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=not args.headed)
         context = await browser.new_context()
@@ -118,7 +119,9 @@ async def probe(args):
 
         page.on('response', on_response)
         try:
+            stage = 'goto_movie'
             await page.goto(args.url, wait_until='domcontentloaded', timeout=45000)
+            stage = 'entry_controls'
             # These controls were observed on the live Hancock page on 2026-10-07.
             for label in ('Enter Film4k', 'UNDERSTOOD'):
                 control = page.get_by_text(label, exact=False).first
@@ -128,15 +131,19 @@ async def probe(args):
                 except Exception:
                     pass
             if '/movie/' in urlsplit(page.url).path:
+                stage = 'click_play'
                 await page.get_by_role('link', name=re.compile('Phát|Play')).first.click(timeout=15000)
             # Reading the master is sufficient even if this browser cannot decode HEVC.
+            stage = 'wait_master'
             await asyncio.wait_for(ready.wait(), timeout=args.timeout)
+            stage = 'parse_master'
             master_url, master = next((u, x) for u, x in captured.items()
                                       if '#EXT-X-STREAM-INF:' in x['body'])
             video, audio = master_tracks(master['body'], master_url)
             bundle = {'movie': args.url, 'master': {'url': master_url, **master}}
             summary = {'status': 'PLAYLISTS_VERIFIED', 'playback_verified': False}
             for kind, track in (('video', video), ('audio', audio)):
+                stage = f'fetch_{kind}_playlist'
                 url = track['url']
                 if urlsplit(url).netloc != urlsplit(master_url).netloc:
                     raise ValueError('cross_origin_playlist_requires_review')
@@ -147,6 +154,7 @@ async def probe(args):
                     if response.status != 200:
                         raise ValueError(f'{kind}_playlist_http_{response.status}')
                     item = {'body': await response.text(), 'headers': master['headers']}
+                stage = f'validate_{kind}_playlist'
                 summary[kind] = media_summary(item['body'])
                 bundle[kind] = {'url': url, **item}
             args.output.mkdir(parents=True, exist_ok=True, mode=0o700)
@@ -164,8 +172,12 @@ async def probe(args):
                 text = ''
             blocked = any(s in text for s in ('verify you are human', 'checking your browser',
                                               'access denied', 'error 1010', 'just a moment'))
+            path = urlsplit(page.url).path if page.url else ''
             print(json.dumps({'status': 'ACCESS_BLOCKED' if blocked else 'INCOMPLETE',
-                              'error_type': type(error).__name__, 'playback_verified': False}))
+                              'stage': stage, 'error_type': type(error).__name__,
+                              'page_path': path, 'captured_hls_count': len(captured),
+                              'master_captured': any('#EXT-X-STREAM-INF:' in x['body'] for x in captured.values()),
+                              'playback_verified': False}))
             return 2
         finally:
             if pending:
