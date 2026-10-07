@@ -81,21 +81,21 @@ def run_diagnostics(session, slug, page_url):
 
 
 def extract_hls_from_api(session, slug, page_url):
-    """Try Film4K's direct /api/watch endpoint before the Cloudflare watch page."""
+    """Resolve Film4K through the API path: watch metadata -> play ticket -> HLS."""
     timings = {}
     started = time.monotonic()
 
     t = time.monotonic()
     try:
-        r = session.get(
+        api_watch = session.get(
             f"{BASE_URL}/api/watch/{slug}",
             timeout=10,
             headers={"User-Agent": USER_AGENT, "Referer": page_url},
         )
         timings["api_watch_ms"] = ms(t)
-        print(f"    [/api/watch] HTTP {r.status_code} {timings['api_watch_ms']} ms")
-        r.raise_for_status()
-        data = r.json()
+        print(f"    [/api/watch] HTTP {api_watch.status_code} {timings['api_watch_ms']} ms")
+        api_watch.raise_for_status()
+        data = api_watch.json()
     except (requests.RequestException, ValueError) as exc:
         print(f"    [/api/watch] unavailable: {exc}")
         return None, None, timings
@@ -106,20 +106,47 @@ def extract_hls_from_api(session, slug, page_url):
         print("    [/api/watch] no movie.hlsUrl")
         return None, None, timings
 
+    # The play-ticket call is intentionally before /api/hls. Some Film4K
+    # deployments reject direct HLS requests until a play session is created.
+    t = time.monotonic()
+    try:
+        ticket = session.post(
+            f"{BASE_URL}/api/play-ticket",
+            json={"slug": slug},
+            timeout=10,
+            headers={
+                "User-Agent": USER_AGENT,
+                "Referer": page_url,
+                "Content-Type": "application/json",
+            },
+        )
+        timings["ticket_ms"] = ms(t)
+        print(f"    [/api/play-ticket] HTTP {ticket.status_code} {timings['ticket_ms']} ms")
+        if ticket.ok:
+            print(f"        -> ticket bytes: {len(ticket.content)}")
+        else:
+            print_http_diagnostic("/api/play-ticket", ticket)
+    except requests.RequestException as exc:
+        print(f"    [/api/play-ticket] request error: {exc}")
+
     hls_url = urljoin(BASE_URL, str(hls_path).replace("\\/", "/"))
     print(f"    [hlsUrl] {hls_url}")
 
-    candidates = [hls_url]
     t = time.monotonic()
     try:
         r = session.get(
             hls_url,
             timeout=10,
-            headers={"User-Agent": USER_AGENT, "Referer": page_url},
+            headers={
+                "User-Agent": USER_AGENT,
+                "Referer": page_url,
+                "Accept": "application/vnd.apple.mpegurl, application/x-mpegURL, */*",
+            },
         )
         elapsed = ms(t)
         timings["hls_ms"] = elapsed
         print(f"    [/api/hls] HTTP {r.status_code} {elapsed} ms")
+
         if r.ok:
             text = r.text
             if "#EXT-X-STREAM-INF" in text:
@@ -141,16 +168,16 @@ def extract_hls_from_api(session, slug, page_url):
             print("        -> /api/hls returned non-HLS content")
         else:
             print_http_diagnostic("/api/hls", r)
+
     except requests.RequestException as exc:
         print(f"    [/api/hls] request error: {exc}")
 
-    # Keep the original resolver path as fallback, including PoW.
-    print("[*] Falling back to /watch + PoW resolver...")
+    # Keep the original /watch + PoW resolver as the final fallback.
+    print("[*] API HLS path failed; falling back to /watch + PoW resolver...")
     stream_url, source, fallback_timings = extract_stream(session, slug, page_url)
     timings.update({f"fallback_{k}": v for k, v in fallback_timings.items()})
     timings["total_ms"] = ms(started)
     return stream_url, source, timings
-
 
 def extract_stream(session, slug, page_url):
     timings = {}
