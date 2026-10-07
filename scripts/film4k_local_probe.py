@@ -189,13 +189,23 @@ async def probe(args):
             if (urlsplit(response.url).hostname and urlsplit(response.url).hostname.endswith('.workers.dev')):
                 try:
                     ct = (response.headers.get('content-type') or '').lower()
+                    sample = b''
+                    try:
+                        if response.request.resource_type in ('media', 'xhr', 'fetch'):
+                            sample = (await response.body())[:32]
+                    except Exception:
+                        pass
                     print(json.dumps({
                         'stage': 'browser_worker_response',
                         'url': response.url,
                         'status': response.status,
+                        'resource_type': response.request.resource_type,
                         'content_type': ct,
                         'content_length': response.headers.get('content-length'),
                         'content_range': response.headers.get('content-range'),
+                        'first32_hex': sample.hex(),
+                        'has_ftyp': b'ftyp' in sample,
+                        'has_moof': b'moof' in sample,
                     }, ensure_ascii=False))
                 except Exception:
                     pass
