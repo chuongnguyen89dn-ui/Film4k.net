@@ -185,6 +185,21 @@ async def probe(args):
                 except Exception:
                     pass
 
+        async def capture_resource_response(response):
+            if (urlsplit(response.url).hostname and urlsplit(response.url).hostname.endswith('.workers.dev')):
+                try:
+                    ct = (response.headers.get('content-type') or '').lower()
+                    print(json.dumps({
+                        'stage': 'browser_worker_response',
+                        'url': response.url,
+                        'status': response.status,
+                        'content_type': ct,
+                        'content_length': response.headers.get('content-length'),
+                        'content_range': response.headers.get('content-range'),
+                    }, ensure_ascii=False))
+                except Exception:
+                    pass
+
         def on_request(request):
             task = asyncio.create_task(capture_resource_request(request))
             pending.add(task)
@@ -196,6 +211,7 @@ async def probe(args):
 
         page.on('request', on_request)
         page.on('response', on_response)
+        page.on('response', lambda response: asyncio.create_task(capture_resource_response(response)))
         try:
             stage = 'goto_movie'
             await page.goto(args.url, wait_until='domcontentloaded', timeout=45000)
