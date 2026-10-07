@@ -295,8 +295,10 @@ async def probe(args):
             path = urlsplit(page.url).path if page.url else ''
             print(json.dumps({'status': 'ACCESS_BLOCKED' if blocked else 'INCOMPLETE',
                               'stage': stage, 'error_type': type(error).__name__,
+                              'error': str(error),
                               'page_path': path, 'captured_hls_count': len(captured),
                               'master_captured': any('#EXT-X-STREAM-INF:' in x['body'] for x in captured.values()),
+                              'captured_urls': list(captured.keys()),
                               'playback_verified': False}))
             return 2
         finally:
