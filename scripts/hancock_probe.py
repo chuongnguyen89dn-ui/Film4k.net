@@ -180,6 +180,28 @@ async def probe(args):
             # ordering without forging a session URL or reusing an archived token.
             stage = 'activate_ticket'
             await context.set_extra_http_headers({'x-f4k-pt': ticket})
+
+            stage = 'register_view'
+            view_resp = await context.request.post(
+                'https://film4k.net/api/view',
+                headers={'content-type': 'application/json', 'referer': watch_url},
+                data=json.dumps({'slug': slug}),
+                timeout=20000,
+                max_redirects=0,
+            )
+            if view_resp.status not in (200, 204):
+                raise RuntimeError(f'view status {view_resp.status}')
+
+            stage = 'bootstrap_watch'
+            watch_resp = await context.request.get(
+                watch_url,
+                headers={'referer': watch_url},
+                timeout=20000,
+                max_redirects=0,
+            )
+            if watch_resp.status != 200:
+                raise RuntimeError(f'watch bootstrap status {watch_resp.status}')
+
             await page.reload(wait_until='domcontentloaded', timeout=45000)
 
             # Reading the master is sufficient even if this browser cannot decode HEVC.
