@@ -17,6 +17,13 @@ class PlaylistTests(unittest.TestCase):
         self.assertEqual(result['segments'], 435)
         self.assertAlmostEqual(result['duration_seconds'], 8700.523, places=3)
         self.assertEqual(result['index_at_30min_zero_based'], 89)
+        seek = result['seek_points_zero_based']
+        self.assertEqual(seek['start'], 0)
+        self.assertIsNotNone(seek['middle'])
+        self.assertGreater(seek['middle'], seek['30min'])
+        self.assertIsNotNone(seek['near_end_30s'])
+        self.assertGreater(seek['near_end_30s'], seek['middle'])
+        self.assertLess(seek['near_end_30s'], result['segments'])
 
     def test_clip_and_gap_are_not_full_vod(self):
         body = '#EXTM3U\n#EXT-X-MAP:URI="init.mp4"\n#EXTINF:20,\na.m4s\n'
