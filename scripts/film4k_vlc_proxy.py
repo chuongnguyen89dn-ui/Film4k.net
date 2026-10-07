@@ -16,6 +16,29 @@ SESSION = {}
 TRACKS = {}
 PORT = 8765
 
+PNG_SIG = b'\x89PNG\r\n\x1a\n'
+
+def unwrap_worker_payload(data):
+    """Film4K worker wraps media bytes after a valid PNG image.
+    Return the bytes after the PNG IEND chunk when a media payload exists.
+    """
+    if not data.startswith(PNG_SIG):
+        return data, False
+    p = 8
+    while p + 12 <= len(data):
+        n = int.from_bytes(data[p:p+4], 'big')
+        end = p + 12 + n
+        if end > len(data):
+            return data, False
+        typ = data[p+4:p+8]
+        if typ == b'IEND':
+            tail = data[end:]
+            if any(tag in tail[:4096] for tag in (b'ftyp', b'styp', b'moov', b'moof', b'mdat', b'sidx')):
+                return tail, True
+            return data, False
+        p = end
+    return data, False
+
 def attrs(line):
     return dict((k, v.strip('"')) for k, v in re.findall(r'([A-Z0-9-]+)=("[^"]*"|[^,]*)', line))
 
@@ -92,9 +115,17 @@ class H(BaseHTTPRequestHandler):
                 ct=r.headers.get('Content-Type','application/octet-stream')
                 status=getattr(r,'status',200)
                 cr=r.headers.get('Content-Range')
-            print('[UPSTREAM_OK]',kind,key,'http=',status,'bytes=',len(data),'type=',ct)
-            if ct.startswith('image/') or data[:8] == b'\x89PNG\r\n\x1a\n':
-                print('[UPSTREAM_BAD_MEDIA]',kind,key,'returned image instead of media')
+            raw_len=len(data)
+            data, unwrapped = unwrap_worker_payload(data)
+            if unwrapped:
+                print('[UPSTREAM_UNWRAP]',kind,key,'png_wrapper_bytes=',raw_len,'media_bytes=',len(data))
+                ct = 'video/mp4' if kind == 'video' else 'audio/mp4'
+                status = 200
+                cr = None
+            else:
+                print('[UPSTREAM_OK]',kind,key,'http=',status,'bytes=',len(data),'type=',ct)
+            if ct.startswith('image/') and not unwrapped:
+                print('[UPSTREAM_BAD_MEDIA]',kind,key,'no media payload after PNG IEND')
             self.send_response(status if status in (200,206) else 200)
             self.send_header('Content-Type',ct)
             self.send_header('Content-Length',str(len(data)))
