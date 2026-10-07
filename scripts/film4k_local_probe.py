@@ -242,7 +242,7 @@ async def probe(args):
             master_url, master = next((u, x) for u, x in captured.items()
                                       if '#EXT-X-STREAM-INF:' in x['body'])
             video, audio = master_tracks(master['body'], master_url)
-            bundle = {'movie': args.url, 'master': {'url': master_url, **master}}
+            bundle = {'movie': args.url, 'master': {'url': master_url, **master}, 'cookies': await context.cookies()}
             summary = {'status': 'PLAYLISTS_VERIFIED', 'playback_verified': False}
             for kind, track in (('video', video), ('audio', audio)):
                 stage = f'fetch_{kind}_playlist'
