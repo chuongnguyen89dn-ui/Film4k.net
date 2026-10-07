@@ -139,7 +139,7 @@ def normal_movie_url(value):
 
 async def probe(args):
     from playwright.async_api import async_playwright
-    captured, pending = {}, set()
+    captured, pending = {}, set()\n    resource_requests = {}
     ready = asyncio.Event()
     stage = 'launch'
     async with async_playwright() as p:
@@ -166,12 +166,12 @@ async def probe(args):
             except Exception:
                 return
 
-        def on_response(response):
+        async def capture_resource_request(request):\n            host = urlsplit(request.url).hostname or ''\n            if host.endswith('.workers.dev'):\n                try:\n                    resource_requests[request.url] = await request.all_headers()\n                except Exception:\n                    pass\n\n        def on_request(request):\n            task = asyncio.create_task(capture_resource_request(request))\n            pending.add(task)\n            task.add_done_callback(pending.discard)\n\n        def on_response(response):
             task = asyncio.create_task(capture(response))
             pending.add(task)
             task.add_done_callback(pending.discard)
 
-        page.on('response', on_response)
+        page.on('request', on_request)\n        page.on('response', on_response)
         try:
             stage = 'goto_movie'
             await page.goto(args.url, wait_until='domcontentloaded', timeout=45000)
@@ -280,7 +280,7 @@ async def probe(args):
                     'middle': summary[kind]['seek_points_zero_based']['middle'],
                     'near_end_30s': summary[kind]['seek_points_zero_based']['near_end_30s'],
                 }
-                checks = {'init': await verify_resource(context.request, init_url, item['headers'])}
+                init_headers = resource_requests.get(init_url, item['headers'])\n                checks = {'init': await verify_resource(context.request, init_url, init_headers)}
                 for label, index in checkpoints.items():
                     if index is None or index >= len(segments):
                         raise ValueError(f'{kind}_{label}_segment_missing')
