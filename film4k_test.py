@@ -80,6 +80,78 @@ def run_diagnostics(session, slug, page_url):
             print(f"[DIAG] {label}: REQUEST ERROR: {exc}")
 
 
+def extract_hls_from_api(session, slug, page_url):
+    """Try Film4K's direct /api/watch endpoint before the Cloudflare watch page."""
+    timings = {}
+    started = time.monotonic()
+
+    t = time.monotonic()
+    try:
+        r = session.get(
+            f"{BASE_URL}/api/watch/{slug}",
+            timeout=10,
+            headers={"User-Agent": USER_AGENT, "Referer": page_url},
+        )
+        timings["api_watch_ms"] = ms(t)
+        print(f"    [/api/watch] HTTP {r.status_code} {timings['api_watch_ms']} ms")
+        r.raise_for_status()
+        data = r.json()
+    except (requests.RequestException, ValueError) as exc:
+        print(f"    [/api/watch] unavailable: {exc}")
+        return None, None, timings
+
+    movie = data.get("movie") or {}
+    hls_path = movie.get("hlsUrl")
+    if not hls_path:
+        print("    [/api/watch] no movie.hlsUrl")
+        return None, None, timings
+
+    hls_url = urljoin(BASE_URL, str(hls_path).replace("\\/", "/"))
+    print(f"    [hlsUrl] {hls_url}")
+
+    candidates = [hls_url]
+    t = time.monotonic()
+    try:
+        r = session.get(
+            hls_url,
+            timeout=10,
+            headers={"User-Agent": USER_AGENT, "Referer": page_url},
+        )
+        elapsed = ms(t)
+        timings["hls_ms"] = elapsed
+        print(f"    [/api/hls] HTTP {r.status_code} {elapsed} ms")
+        if r.ok:
+            text = r.text
+            if "#EXT-X-STREAM-INF" in text:
+                lines = [line.strip() for line in text.splitlines() if line.strip()]
+                for i, line in enumerate(lines):
+                    if (
+                        line.startswith("#EXT-X-STREAM-INF")
+                        and i + 1 < len(lines)
+                        and not lines[i + 1].startswith("#")
+                    ):
+                        stream_url = urljoin(hls_url, lines[i + 1])
+                        timings["total_ms"] = ms(started)
+                        print("        -> API HLS master: PASS")
+                        return stream_url, hls_url, timings
+            if "#EXTINF" in text:
+                timings["total_ms"] = ms(started)
+                print("        -> API HLS media playlist: PASS")
+                return hls_url, hls_url, timings
+            print("        -> /api/hls returned non-HLS content")
+        else:
+            print_http_diagnostic("/api/hls", r)
+    except requests.RequestException as exc:
+        print(f"    [/api/hls] request error: {exc}")
+
+    # Keep the original resolver path as fallback, including PoW.
+    print("[*] Falling back to /watch + PoW resolver...")
+    stream_url, source, fallback_timings = extract_stream(session, slug, page_url)
+    timings.update({f"fallback_{k}": v for k, v in fallback_timings.items()})
+    timings["total_ms"] = ms(started)
+    return stream_url, source, timings
+
+
 def extract_stream(session, slug, page_url):
     timings = {}
     started = time.monotonic()
