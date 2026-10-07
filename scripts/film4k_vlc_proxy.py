@@ -107,7 +107,7 @@ class H(BaseHTTPRequestHandler):
 
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('--session',type=Path,default=Path('.local/film4k-probe/session.json')); ap.add_argument('--port',type=int,default=8765); a=ap.parse_args()
-    global SESSION, PORT; PORT=a.port; SESSION=json.loads(a.session.read_text(encoding='utf-8'))
+    global SESSION, PORT; PORT=a.port; SESSION=json.loads(a.session.read_text(encoding='utf-8'))\n    cookiejar = SESSION.get('cookies', [])\n    cookie_header = '; '.join(f"{c['name']}={c['value']}" for c in cookiejar)\n    for kind in ('video','audio'):\n        SESSION[kind].setdefault('headers', {})\n        if cookie_header: SESSION[kind]['headers']['Cookie'] = cookie_header
     TRACKS['master']=rewrite_master(SESSION['master'])
     for kind in ('video','audio'):
         init,segs=resources(SESSION[kind]); TRACKS[kind]={'init':init,'segments':segs,'playlist':rewrite_media(kind,SESSION[kind])}
