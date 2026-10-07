@@ -39,6 +39,7 @@ def rewrite_master(item):
     lines = item['body'].splitlines()
     out = []
     pending_stream = False
+    stream_index = 0
     for raw in lines:
         line = raw.strip()
         if line.startswith('#EXT-X-MEDIA:') and 'TYPE=AUDIO' in line:
@@ -49,8 +50,12 @@ def rewrite_master(item):
         elif line.startswith('#EXT-X-STREAM-INF:'):
             pending_stream = True
         elif pending_stream and line and not line.startswith('#'):
+            # The captured session already selected one verified video variant.
+            # Point every master variant at it so VLC never follows an unproxied
+            # relative /api/hls/... child playlist.
             line = f'http://127.0.0.1:{PORT}/video.m3u8'
             pending_stream = False
+            stream_index += 1
         out.append(line)
     return '\n'.join(out) + '\n'
 
