@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import base64
 import urllib.request
 import urllib.error, asyncio, json, re, time
 from pathlib import Path
@@ -448,6 +449,30 @@ async def main():
             print(f"[MEDIA_TRACE] {len(media_trace)} entries -> film4k_media_trace.json")
         except Exception as e:
             print(f"[MEDIA_TRACE_ERROR] {e}")
+
+        # Optional automatic upload so the result can be read from GitHub
+        # without manually sending the trace file. Uses the caller's own token.
+        token = __import__("os").environ.get("GITHUB_TOKEN")
+        repo = __import__("os").environ.get("GITHUB_REPOSITORY", "chuongnguyen89dn-ui/Film4k.net")
+        if token:
+            trace_path = Path("film4k_network_trace.json")
+            api = f"https://api.github.com/repos/{repo}/contents/tieptucduan/captures/film4k_network_trace.json"
+            payload = json.dumps({
+                "message": "trace: upload latest Film4K network capture",
+                "content": base64.b64encode(trace_path.read_bytes()).decode("ascii"),
+                "branch": "main",
+            }).encode("utf-8")
+            req_up = urllib.request.Request(api, data=payload, method="PUT", headers={
+                "Authorization": f"Bearer {token}",
+                "Accept": "application/vnd.github+json",
+                "Content-Type": "application/json",
+                "X-GitHub-Api-Version": "2022-11-28",
+            })
+            try:
+                with urllib.request.urlopen(req_up, timeout=20) as up:
+                    print("[GITHUB_UPLOAD]", getattr(up, "status", None))
+            except urllib.error.HTTPError as e:
+                print("[GITHUB_UPLOAD_ERROR]", e.code)
 
         await ctx.close()
 
