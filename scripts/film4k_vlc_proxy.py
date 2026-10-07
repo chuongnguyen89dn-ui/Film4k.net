@@ -13,7 +13,8 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 SESSION = {}
-TRACKS = {}\nPORT = 8765
+TRACKS = {}
+PORT = 8765
 
 def attrs(line):
     return dict((k, v.strip('"')) for k, v in re.findall(r'([A-Z0-9-]+)=("[^"]*"|[^,]*)', line))
