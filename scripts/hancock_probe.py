@@ -159,6 +159,29 @@ async def probe(args):
                         await control.click(timeout=5000)
                     except Exception:
                         pass
+            # The normal interactive trace obtains a short-lived play ticket before
+            # the first /api/hls/<session>/master.m3u8 request. Obtain it in this
+            # same browser context; never print or persist the ticket itself.
+            stage = 'get_play_ticket'
+            watch_url = page.url
+            ticket_response = await context.request.post(
+                'https://film4k.net/api/play-ticket',
+                headers={'accept': 'application/json', 'referer': watch_url},
+                timeout=20000, max_redirects=0)
+            if ticket_response.status != 200:
+                raise ValueError(f'play_ticket_http_{ticket_response.status}')
+            ticket_json = await ticket_response.json()
+            ticket = ticket_json.get('token') if isinstance(ticket_json, dict) else None
+            if not isinstance(ticket, str) or not ticket:
+                raise ValueError('play_ticket_missing_token')
+
+            # Re-enter the canonical watch route with the ticket available to the
+            # site's normal player requests. This reproduces the observed request
+            # ordering without forging a session URL or reusing an archived token.
+            stage = 'activate_ticket'
+            await context.set_extra_http_headers({'x-f4k-pt': ticket})
+            await page.reload(wait_until='domcontentloaded', timeout=45000)
+
             # Reading the master is sufficient even if this browser cannot decode HEVC.
             stage = 'wait_master'
             await asyncio.wait_for(ready.wait(), timeout=args.timeout)
