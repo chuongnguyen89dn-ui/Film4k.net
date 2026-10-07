@@ -46,6 +46,30 @@ def cache_put(slug, stream_url, cookies):
 
 
 def get_fresh_stream(slug):
+    # Optional Vietnam-side upstream. Set FILM4K_UPSTREAM_URL on Render
+    # to a Quick Tunnel/local resolver running on the user's VN machine.
+    upstream = os.environ.get("FILM4K_UPSTREAM_URL", "").rstrip("/")
+    upstream_key = os.environ.get("FILM4K_UPSTREAM_KEY", "")
+    if upstream:
+        try:
+            url = f"{upstream}/stream/movie/{slug}.json"
+            params = {"key": upstream_key} if upstream_key else {}
+            r = requests.get(url, params=params, timeout=15)
+            r.raise_for_status()
+            data = r.json()
+            streams = data.get("streams") or []
+            if streams:
+                stream = streams[0]
+                hints = stream.get("behaviorHints") or {}
+                req = (hints.get("proxyHeaders") or {}).get("request") or {}
+                cookies = req.get("Cookie", "")
+                return stream.get("url"), cookies
+            print(f"[film4k] upstream returned no streams slug={slug}")
+            return None, None
+        except Exception as exc:
+            print(f"[film4k] upstream resolver failed slug={slug}: {exc}")
+            return None, None
+
     started = time.monotonic()
     session = requests.Session()
     page_url = f"{BASE_URL}/watch/{slug}"
@@ -61,8 +85,6 @@ def get_fresh_stream(slug):
     )
 
     try:
-        # Primary resolver path verified by the standalone Film4K test:
-        # /api/watch -> /api/play-ticket -> /api/hls/<token>/master.m3u8
         t0 = time.monotonic()
         api_watch = session.get(
             f"{BASE_URL}/api/watch/{slug}",
@@ -90,7 +112,6 @@ def get_fresh_stream(slug):
         movie = data.get("movie") or {}
         hls_path = movie.get("hlsUrl")
         if not hls_path:
-            print(f"[film4k] no hlsUrl slug={slug}")
             return None, None
 
         t0 = time.monotonic()
@@ -108,7 +129,6 @@ def get_fresh_stream(slug):
         api_ticket.raise_for_status()
 
         hls_url = urljoin(BASE_URL, str(hls_path).replace("\\/", "/"))
-
         t0 = time.monotonic()
         master = session.get(
             hls_url,
@@ -124,7 +144,6 @@ def get_fresh_stream(slug):
 
         text = master.text
         real_stream_url = None
-
         if "#EXT-X-STREAM-INF" in text:
             lines = [line.strip() for line in text.splitlines() if line.strip()]
             for idx, line in enumerate(lines):
@@ -139,28 +158,21 @@ def get_fresh_stream(slug):
             real_stream_url = hls_url
 
         if not real_stream_url:
-            print(f"[film4k] HLS master did not contain a playable playlist slug={slug}")
             return None, None
 
         cookies_str = "; ".join(
             f"{k}={v}" for k, v in session.cookies.get_dict().items()
         )
-
         total_ms = int((time.monotonic() - started) * 1000)
         print(
             f"[film4k] resolver slug={slug} "
             f"api_watch={watch_ms}ms ticket={ticket_ms}ms "
             f"hls={hls_ms}ms total={total_ms}ms"
         )
-
         cache_put(slug, real_stream_url, cookies_str)
         return real_stream_url, cookies_str
-
     except requests.RequestException as exc:
         print(f"[film4k] resolver request failed slug={slug} error={exc}")
-        return None, None
-    except (ValueError, KeyError, TypeError) as exc:
-        print(f"[film4k] resolver response invalid slug={slug} error={exc}")
         return None, None
     except Exception as exc:
         print(f"[film4k] resolver failed slug={slug} error={exc}")
