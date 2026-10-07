@@ -49,6 +49,37 @@ def solve_gate(session, page_url, html):
     return False
 
 
+def print_http_diagnostic(label, response):
+    print(f"[DIAG] {label}: HTTP {response.status_code}")
+    print(f"       Server      : {response.headers.get('Server', '(none)')}")
+    print(f"       Content-Type: {response.headers.get('Content-Type', '(none)')}")
+    print(f"       Retry-After : {response.headers.get('Retry-After', '(none)')}")
+    print(f"       Location    : {response.headers.get('Location', '(none)')}")
+    print(f"       Length      : {len(response.content)} bytes")
+    body = re.sub(r"\\s+", " ", response.text[:500]).strip()
+    print(f"       Body[500]   : {body}")
+
+
+def run_diagnostics(session, slug, page_url):
+    print("[*] Running Film4K HTTP diagnostics...")
+    targets = [
+        ("homepage", BASE_URL + "/"),
+        ("watch", page_url),
+        ("api_watch", f"{BASE_URL}/api/watch/{slug}"),
+    ]
+    for label, url in targets:
+        try:
+            t = time.monotonic()
+            if label == "api_watch":
+                r = session.get(url, timeout=10, headers={"Referer": page_url, "User-Agent": USER_AGENT})
+            else:
+                r = session.get(url, timeout=10, headers={"Referer": page_url, "User-Agent": USER_AGENT})
+            print_http_diagnostic(label, r)
+            print(f"       Time        : {ms(t)} ms")
+        except requests.RequestException as exc:
+            print(f"[DIAG] {label}: REQUEST ERROR: {exc}")
+
+
 def extract_stream(session, slug, page_url):
     timings = {}
     started = time.monotonic()
@@ -86,6 +117,9 @@ def extract_stream(session, slug, page_url):
         print("[FAIL] /watch unavailable after retries")
         for error in watch_errors:
             print(f"    {error}")
+        if page is not None:
+            print_http_diagnostic("/watch final response", page)
+        run_diagnostics(session, slug, page_url)
         return None, None, timings
 
     if not solve_gate(session, page_url, page.text):
