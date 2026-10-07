@@ -66,13 +66,28 @@ def media_summary(body):
             pending = None
     if pending is not None or not durations or not init or not end or gaps:
         raise ValueError('incomplete_fmp4_vod_playlist')
-    elapsed, index30 = 0.0, None
-    for i, duration in enumerate(durations):
-        if index30 is None and elapsed + duration > 1800:
-            index30 = i
-        elapsed += duration
+    elapsed = sum(durations)
+
+    def index_at(seconds):
+        if seconds < 0 or seconds >= elapsed:
+            return None
+        cursor = 0.0
+        for i, duration in enumerate(durations):
+            if cursor + duration > seconds:
+                return i
+            cursor += duration
+        return None
+
+    seek_points = {
+        'start': index_at(0),
+        '30min': index_at(1800),
+        'middle': index_at(elapsed / 2),
+        'near_end_30s': index_at(max(0, elapsed - 30)),
+    }
     return {'segments': len(durations), 'duration_seconds': round(elapsed, 6),
-            'index_at_30min_zero_based': index30, 'init_present': init, 'endlist': end}
+            'index_at_30min_zero_based': seek_points['30min'],
+            'seek_points_zero_based': seek_points,
+            'init_present': init, 'endlist': end}
 
 
 def normal_movie_url(value):
