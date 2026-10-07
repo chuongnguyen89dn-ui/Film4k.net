@@ -36,26 +36,23 @@ def rewrite_media(name, item):
     return '\n'.join(out) + '\n'
 
 def rewrite_master(item):
-    lines = item['body'].splitlines()
     out = []
-    pending_stream = False
-    stream_index = 0
-    for raw in lines:
+    for raw in item['body'].splitlines():
         line = raw.strip()
-        if line.startswith('#EXT-X-MEDIA:') and 'TYPE=AUDIO' in line:
+        if line.startswith('#EXT-X-MEDIA:'):
             a = attrs(line)
             uri = a.get('URI')
             if uri:
-                line = line.replace(uri, f'http://127.0.0.1:{PORT}/audio.m3u8')
-        elif line.startswith('#EXT-X-STREAM-INF:'):
-            pending_stream = True
-        elif pending_stream and line and not line.startswith('#'):
-            # The captured session already selected one verified video variant.
-            # Point every master variant at it so VLC never follows an unproxied
-            # relative /api/hls/... child playlist.
+                if 'TYPE=AUDIO' in line:
+                    line = line.replace(uri, f'http://127.0.0.1:{PORT}/audio.m3u8')
+                else:
+                    # Do not let VLC follow subtitle/alternate rendition URIs
+                    # from the original Film4K session through localhost.
+                    line = line.replace(uri, f'http://127.0.0.1:{PORT}/video.m3u8')
+        elif line and not line.startswith('#') and '.m3u8' in line:
+            # Every variant URI in the master is rewritten, regardless of
+            # whether VLC's parser associates it with the preceding tag.
             line = f'http://127.0.0.1:{PORT}/video.m3u8'
-            pending_stream = False
-            stream_index += 1
         out.append(line)
     return '\n'.join(out) + '\n'
 
