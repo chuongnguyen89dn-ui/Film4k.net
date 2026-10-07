@@ -146,10 +146,32 @@ async def main():
                     z["request_headers"]={x:y for x,y in headers.items()
                         if x.lower() in ("referer","origin","user-agent","accept","range")}
 
+        def safe_post_data(r):
+            try:
+                data=r.post_data
+                if not data:
+                    return data
+                # Never persist play-ticket/session credentials.
+                if "/api/play-ticket" in r.url:
+                    return "<redacted>"
+                try:
+                    obj=json.loads(data)
+                    for key in list(obj):
+                        if key.lower() in ("token","ticket","x-f4k-pt","session","cookie"):
+                            obj[key]="<redacted>"
+                    return json.dumps(obj,ensure_ascii=False,separators=(",",":"))
+                except Exception:
+                    return data[:4096]
+            except Exception:
+                return None
+
         async def req(r):
             try:
                 if r.resource_type in ("media","xhr","fetch","document"):
-                    net.append({"type":r.resource_type,"method":r.method,"url":r.url})
+                    row={"type":r.resource_type,"method":r.method,"url":r.url}
+                    if r.method.upper() in ("POST","PUT","PATCH") and any(x in r.url for x in ("/api/view","/api/play-ticket","/api/watch/")):
+                        row["post_data"]=safe_post_data(r)
+                    net.append(row)
                     await remember(r.url,"request:"+r.resource_type,headers=r.headers)
             except: pass
 
@@ -414,6 +436,11 @@ async def main():
                 print("DIRECT_SEGMENT = FAIL")
                 print("NEXT = CDN is also session/access-bound; do not retry master/Referer tests")
         try:
+            Path("film4k_network_trace.json").write_text(
+                json.dumps(net, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
+            print(f"[NETWORK_TRACE] {len(net)} entries -> film4k_network_trace.json")
             Path("film4k_media_trace.json").write_text(
                 json.dumps(media_trace, ensure_ascii=False, indent=2),
                 encoding="utf-8",
