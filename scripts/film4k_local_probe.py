@@ -118,6 +118,9 @@ async def verify_resource(request, url, headers):
     body = await response.body()
     if not body:
         raise ValueError('resource_empty')
+    ct = (response.headers.get('content-type') or '').lower()
+    if ct.startswith('image/') or body.startswith(b'\x89PNG\r\n\x1a\n'):
+        raise ValueError(f'resource_not_media_{ct}')
     return {'http': response.status, 'bytes': len(body)}
 
 def normal_movie_url(value):
