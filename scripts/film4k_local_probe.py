@@ -184,7 +184,8 @@ async def probe(args):
             pending.add(task)
             task.add_done_callback(pending.discard)
 
-        page.on('request', on_request)\n        page.on('response', on_response)
+        page.on('request', on_request)
+        page.on('response', on_response)
         try:
             stage = 'goto_movie'
             await page.goto(args.url, wait_until='domcontentloaded', timeout=45000)
@@ -293,7 +294,8 @@ async def probe(args):
                     'middle': summary[kind]['seek_points_zero_based']['middle'],
                     'near_end_30s': summary[kind]['seek_points_zero_based']['near_end_30s'],
                 }
-                init_headers = resource_requests.get(init_url, item['headers'])\n                checks = {'init': await verify_resource(context.request, init_url, init_headers)}
+                init_headers = resource_requests.get(init_url, item['headers'])
+                checks = {'init': await verify_resource(context.request, init_url, init_headers)}
                 for label, index in checkpoints.items():
                     if index is None or index >= len(segments):
                         raise ValueError(f'{kind}_{label}_segment_missing')
