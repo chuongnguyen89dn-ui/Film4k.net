@@ -167,7 +167,19 @@ async def probe(args):
             except Exception:
                 return
 
-        async def capture_resource_request(request):\n            host = urlsplit(request.url).hostname or ''\n            if host.endswith('.workers.dev'):\n                try:\n                    resource_requests[request.url] = await request.all_headers()\n                except Exception:\n                    pass\n\n        def on_request(request):\n            task = asyncio.create_task(capture_resource_request(request))\n            pending.add(task)\n            task.add_done_callback(pending.discard)\n\n        def on_response(response):
+        async def capture_resource_request(request):
+            host = urlsplit(request.url).hostname or ''
+            if host.endswith('.workers.dev'):
+                try:
+                    resource_requests[request.url] = await request.all_headers()
+                except Exception:
+                    pass
+
+        def on_request(request):
+            task = asyncio.create_task(capture_resource_request(request))
+            pending.add(task)
+            task.add_done_callback(pending.discard)
+        def on_response(response):
             task = asyncio.create_task(capture(response))
             pending.add(task)
             task.add_done_callback(pending.discard)
