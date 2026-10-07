@@ -139,7 +139,8 @@ def normal_movie_url(value):
 
 async def probe(args):
     from playwright.async_api import async_playwright
-    captured, pending = {}, set()\n    resource_requests = {}
+    captured, pending = {}, set()
+    resource_requests = {}
     ready = asyncio.Event()
     stage = 'launch'
     async with async_playwright() as p:
