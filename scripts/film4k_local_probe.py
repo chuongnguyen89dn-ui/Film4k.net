@@ -112,16 +112,22 @@ def media_resources(body, base):
 
 
 async def verify_resource(request, url, headers):
-    response = await request.get(url, headers=headers, timeout=20000, max_redirects=0)
-    if response.status not in (200, 206):
-        raise ValueError(f'resource_http_{response.status}')
+    response = await request.get(
+        url,
+        headers=headers,
+        timeout=20000,
+        max_redirects=0,
+    )
+    status = response.status
     body = await response.body()
-    if not body:
-        raise ValueError('resource_empty')
     ct = (response.headers.get('content-type') or '').lower()
+    if status not in (200, 206):
+        raise ValueError(f'resource_http_{status}_url={url}')
+    if not body:
+        raise ValueError(f'resource_empty_url={url}')
     if ct.startswith('image/') or body.startswith(b'\x89PNG\r\n\x1a\n'):
-        raise ValueError(f'resource_not_media_{ct}')
-    return {'http': response.status, 'bytes': len(body)}
+        raise ValueError(f'resource_not_media_{ct}_url={url}_bytes={len(body)}')
+    return {'http': status, 'bytes': len(body), 'content_type': ct}
 
 def normal_movie_url(value):
     u = urlsplit(value)
@@ -263,6 +269,12 @@ async def probe(args):
                 summary[kind] = media_summary(item['body'])
                 bundle[kind] = {'url': url, **item}
                 init_url, segments = media_resources(item['body'], url)
+                print(json.dumps({
+                    'stage': f'{kind}_resources',
+                    'init_url': init_url,
+                    'start_url': segments[0] if segments else None,
+                    'segment_count': len(segments),
+                }, ensure_ascii=False))
                 checkpoints = {
                     'start': 0,
                     'middle': summary[kind]['seek_points_zero_based']['middle'],
