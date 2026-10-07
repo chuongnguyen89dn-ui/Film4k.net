@@ -171,7 +171,17 @@ async def probe(args):
             host = urlsplit(request.url).hostname or ''
             if host.endswith('.workers.dev'):
                 try:
-                    resource_requests[request.url] = await request.all_headers()
+                    raw = await request.all_headers()
+                    resource_requests[request.url] = {
+                        k: v for k, v in raw.items()
+                        if not k.startswith(':')
+                        and k.lower() in (
+                            'accept', 'accept-encoding', 'accept-language',
+                            'cache-control', 'cookie', 'origin', 'referer',
+                            'user-agent', 'x-f4k-pt', 'sec-fetch-dest',
+                            'sec-fetch-mode', 'sec-fetch-site',
+                        )
+                    }
                 except Exception:
                     pass
 
