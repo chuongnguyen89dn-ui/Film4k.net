@@ -35,6 +35,25 @@ def rewrite_media(name, item):
         out.append(line)
     return '\n'.join(out) + '\n'
 
+def rewrite_master(item):
+    lines = item['body'].splitlines()
+    out = []
+    pending_stream = False
+    for raw in lines:
+        line = raw.strip()
+        if line.startswith('#EXT-X-MEDIA:') and 'TYPE=AUDIO' in line:
+            a = attrs(line)
+            uri = a.get('URI')
+            if uri:
+                line = line.replace(uri, f'http://127.0.0.1:{PORT}/audio.m3u8')
+        elif line.startswith('#EXT-X-STREAM-INF:'):
+            pending_stream = True
+        elif pending_stream and line and not line.startswith('#'):
+            line = f'http://127.0.0.1:{PORT}/video.m3u8'
+            pending_stream = False
+        out.append(line)
+    return '\n'.join(out) + '\n'
+
 def resources(item):
     base=item['url']; init=None; seg=[]
     for raw in item['body'].splitlines():
@@ -50,7 +69,7 @@ class H(BaseHTTPRequestHandler):
     def log_message(self, fmt, *args): print('[HTTP]', fmt%args)
     def do_GET(self):
         if self.path=='/master.m3u8':
-            body=f'#EXTM3U\n#EXT-X-VERSION:7\n#EXT-X-INDEPENDENT-SEGMENTS\n#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="a",NAME="English",DEFAULT=YES,AUTOSELECT=YES,URI="http://127.0.0.1:{PORT}/audio.m3u8"\n#EXT-X-STREAM-INF:BANDWIDTH=20000000,AUDIO="a"\nhttp://127.0.0.1:{PORT}/video.m3u8\n'.encode()
+            body=TRACKS['master'].encode()
             return self.sendb(body,'application/vnd.apple.mpegurl')
         if self.path=='/video.m3u8': return self.sendb(TRACKS['video']['playlist'].encode(),'application/vnd.apple.mpegurl')
         if self.path=='/audio.m3u8': return self.sendb(TRACKS['audio']['playlist'].encode(),'application/vnd.apple.mpegurl')
@@ -75,6 +94,7 @@ class H(BaseHTTPRequestHandler):
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('--session',type=Path,default=Path('.local/film4k-probe/session.json')); ap.add_argument('--port',type=int,default=8765); a=ap.parse_args()
     global SESSION, PORT; PORT=a.port; SESSION=json.loads(a.session.read_text(encoding='utf-8'))
+    TRACKS['master']=rewrite_master(SESSION['master'])
     for kind in ('video','audio'):
         init,segs=resources(SESSION[kind]); TRACKS[kind]={'init':init,'segments':segs,'playlist':rewrite_media(kind,SESSION[kind])}
     url=f'http://127.0.0.1:{a.port}/master.m3u8'
